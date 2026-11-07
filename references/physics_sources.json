@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "primary_sources": [
+    {
+      "id": "PHY-GIESEL-2012",
+      "authors": [
+        "Kristina Giesel",
+        "Thomas Thiemann"
+      ],
+      "title": "Scalar Material Reference Systems and Loop Quantum Gravity",
+      "first_submission": "2012-06-17",
+      "version": "1206.3807v2",
+      "last_revision": "2012-06-24",
+      "journal": "Classical and Quantum Gravity32(2015)135015",
+      "doi": "10.1088/0264-9381/32/13/135015",
+      "url": "https://arxiv.org/abs/1206.3807",
+      "content_url": "https://arxiv.org/html/1206.3807v2",
+      "consulted_scope": "Metadatos, resumen, introducción y estructura de secciones HTML; no lectura íntegra del PDF",
+      "result_used": "Antecedente de sistemas materiales de referencia y cuantización reducida en LQG; no se toma su Hamiltoniano como el del banco finito",
+      "supports": [
+        "QG§B",
+        "QG§M"
+      ],
+      "verified_metadata": true,
+      "verified_content_scope": true,
+      "consulted_date_local": "2026-11-06",
+      "verification": "AI-assisted direct consultation of source metadata and declared HTML scope",
+      "human_verification": "pending",
+      "review_type": "internal",
+      "full_pdf_read": false
+    },
+    {
+      "id": "PHY-DEPIETRI-1996",
+      "authors": [
+        "Roberto De Pietri",
+        "Carlo Rovelli"
+      ],
+      "title": "Geometry Eigenvalues and Scalar Product from Recoupling Theory in Loop Quantum Gravity",
+      "first_submission": "1996-02-13",
+      "version": "gr-qc/9602023v2",
+      "last_revision": "1996-07-04",
+      "journal": "Physical ReviewD54(1996)2664–2690",
+      "doi": "10.1103/PhysRevD.54.2664",
+      "url": "https://arxiv.org/abs/gr-qc/9602023",
+      "consulted_scope": "Metadatos y resumen; detalles de recoupling del artículo no usados como prueba del cálculo propio",
+      "result_used": "Antecedente de operadores geométricos y producto interno por recoupling; la matriz del nodo se calcula aquí",
+      "supports": [
+        "QG§A",
+        "QG§M"
+      ],
+      "verified_metadata": true,
+      "verified_content_scope": true,
+      "consulted_date_local": "2026-11-06",
+      "verification": "AI-assisted direct consultation of source metadata and declared HTML scope",
+      "human_verification": "pending",
+      "review_type": "internal",
+      "full_pdf_read": false
+    },
+    {
+      "id": "PHY-MANETTI-2005",
+      "authors": [
+        "Marco Manetti"
+      ],
+      "title": "Deformation theory via differential graded Lie algebras",
+      "first_submission": "2005-07-14",
+      "version": "math/0507284v1",
+      "journal": "Seminari di Geometria Algebrica1998–99, Scuola Normale Superiore",
+      "url": "https://arxiv.org/abs/math/0507284",
+      "content_url": "https://arxiv.org/html/math/0507284v1",
+      "consulted_scope": "Metadatos y HTML: definiciones DGLA/MC, §2obstrucciones primarias, §3espacioH²",
+      "result_used": "Contexto y antecedente de MC y obstruccionesH²; la prueba mixta y ejemplos están escritos y calculados en este repositorio",
+      "supports": [
+        "GO§A",
+        "GO§G",
+        "GO§H",
+        "UFT-GO-001"
+      ],
+      "verified_metadata": true,
+      "verified_content_scope": true,
+      "consulted_date_local": "2026-11-06",
+      "verification": "AI-assisted direct consultation of source metadata and declared HTML scope",
+      "human_verification": "pending",
+      "review_type": "internal",
+      "full_pdf_read": false
+    },
+    {
+      "id": "PHY-BARNICH-1993",
+      "authors": [
+        "Glenn Barnich",
+        "Marc Henneaux"
+      ],
+      "title": "Consistent couplings between fields with a gauge freedom and deformations of the master equation",
+      "first_submission": "1993-04-14",
+      "version": "hep-th/9304057v1",
+      "journal": "Physics LettersB311(1993)123–129",
+      "doi": "10.1016/0370-2693(93)90544-R",
+      "url": "https://arxiv.org/abs/hep-th/9304057",
+      "content_url": "https://arxiv.org/html/hep-th/9304057v1",
+      "consulted_scope": "Metadatos, resumen y HTML§§1,4–5 sobre maestra y localidad",
+      "result_used": "Deformación de la ecuación maestra y carácter local de obstrucciones; no se importa una clasificación de todas las teorías posibles",
+      "supports": [
+        "UF§B",
+        "UF§G",
+        "UFT-UF-001"
+      ],
+      "verified_metadata": true,
+      "verified_content_scope": true,
+      "consulted_date_local": "2026-11-06",
+      "verification": "AI-assisted direct consultation of source metadata and declared HTML scope",
+      "human_verification": "pending",
+      "review_type": "internal",
+      "full_pdf_read": false
+    },
+    {
+      "id": "PHY-MASON-2008",
+      "authors": [
+        "Lionel Mason",
+        "David Skinner"
+      ],
+      "title": "Gravity, Twistors and the MHV Formalism",
+      "first_submission": "2008-08-28",
+      "version": "0808.3907v2",
+      "last_revision": "2009-10-26",
+      "journal": "Communications in Mathematical Physics294(2010)827–862",
+      "doi": "10.1007/s00220-009-0972-4",
+      "url": "https://arxiv.org/abs/0808.3907",
+      "content_url": "https://arxiv.org/html/0808.3907v2",
+      "consulted_scope": "Metadatos y HTML§3.1ecuaciones22–24, §5ecuación81 y discusión de pesos",
+      "result_used": "Incidencia omega=i*x*pi; pesos2/−6 con helicidades−2/+2 en sus convenciones; peso4de medida y−2del Poisson; alcance perturbativo gravitatorio",
+      "supports": [
+        "GO§B",
+        "GO§E",
+        "GO§M"
+      ],
+      "verified_metadata": true,
+      "verified_content_scope": true,
+      "consulted_date_local": "2026-11-06",
+      "verification": "AI-assisted direct consultation of source metadata and declared HTML scope",
+      "human_verification": "pending",
+      "review_type": "internal",
+      "full_pdf_read": false
+    },
+    {
+      "id": "PHY-ADAMO-2017",
+      "authors": [
+        "Tim Adamo"
+      ],
+      "title": "Lectures on twistor theory",
+      "first_submission": "2017-12-06",
+      "version": "1712.02196v2",
+      "last_revision": "2018-01-15",
+      "journal": "PoS Modave2017(2018)003",
+      "url": "https://arxiv.org/abs/1712.02196",
+      "content_url": "https://arxiv.org/html/1712.02196v2",
+      "consulted_scope": "Metadatos, resumen y sección consultada sobre googly Yang–Mills; material expositivo de orientación",
+      "result_used": "Contexto histórico limitado; no se usa una afirmación histórica del2017 para certificar el estado actual de todo el problema",
+      "supports": [
+        "context_only"
+      ],
+      "verified_metadata": true,
+      "verified_content_scope": true,
+      "consulted_date_local": "2026-11-06",
+      "verification": "AI-assisted direct consultation of source metadata and declared HTML scope",
+      "human_verification": "pending",
+      "review_type": "internal",
+      "full_pdf_read": false
+    }
+  ],
+  "search_scope": {
+    "web_queries": [
+      "site.arxiv.org Physical Hamiltonian Loop Quantum Gravity Giesel Thiemann",
+      "site.arxiv.org Maurer-Cartan deformation theory Manetti",
+      "site.arxiv.org Barnich Henneaux consistent couplings master equation1993",
+      "site.arxiv.org Mason Skinner Gravity Twistors MHV Formalism2008"
+    ],
+    "scope_limitations": [
+      "búsqueda exploratoria finita, no revisión sistemática exhaustiva",
+      "no afirmación de novedad ni prioridad",
+      "no se consultó MathSciNet, Scopus o WebofScience",
+      "metadatos verificados por consulta de agente, revisión humana pendiente"
+    ],
+    "openai_math": {
+      "command": "openai-math buscar 'clock|relational|deparametr'",
+      "matches": [
+        {
+          "family": "134",
+          "title": "Generalized star height at most three"
+        },
+        {
+          "family": "211",
+          "title": "Geometry, diffusion, and spectra of random planar maps"
+        },
+        {
+          "family": "227",
+          "title": "The dynamical phase transition in the Sherrington–Kirkpatrick model"
+        },
+        {
+          "family": "376",
+          "title": "Universal computation in forced Navier–Stokes flows"
+        }
+      ],
+      "screening": "coincidencias léxicas de catálogo sin título directamente pertinente al reloj de este banco; no se importan como premisas",
+      "full_text_consulted": false,
+      "status": "preimpresiones no verificadas; ninguna prueba Lean usada",
+      "limitations": "La ausencia de un título pertinente en esta consulta no demuestra ausencia de resultados en el corpus."
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "scope": "UFT namespace; canonical BRAIN ALERTAS not modified",
+  "alerts": [
+    {
+      "analysis": "UFT-QG-004",
+      "change": "A documented refutation was registered",
+      "consequence": "The claim cannot support a proved conclusion",
+      "date": "2026-11-07T01:00:39.777608+00:00",
+      "dependents": [],
+      "id": "ALERT-d1144a5ce59b92779bf6",
+      "kind": "scientific",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "priority": "high",
+      "recommended_action": "Inspect the counterexample and dependent claims",
+      "scientific_status": "refuted",
+      "source": "UFT-QG-004"
+    },
+    {
+      "analysis": "UFT-GO-003",
+      "change": "A documented refutation was registered",
+      "consequence": "The claim cannot support a proved conclusion",
+      "date": "2026-11-07T01:00:39.779122+00:00",
+      "dependents": [],
+      "id": "ALERT-3cb53b0c076f0ec6fef5",
+      "kind": "scientific",
+      "objectives": [
+        "googly"
+      ],
+      "priority": "high",
+      "recommended_action": "Inspect the counterexample and dependent claims",
+      "scientific_status": "refuted",
+      "source": "UFT-GO-003"
+    },
+    {
+      "analysis": "UFT-UF-004",
+      "change": "A documented refutation was registered",
+      "consequence": "The claim cannot support a proved conclusion",
+      "date": "2026-11-07T01:00:39.780942+00:00",
+      "dependents": [],
+      "id": "ALERT-c5f0a74e8f5a01dbdba6",
+      "kind": "scientific",
+      "objectives": [
+        "unification"
+      ],
+      "priority": "high",
+      "recommended_action": "Inspect the counterexample and dependent claims",
+      "scientific_status": "refuted",
+      "source": "UFT-UF-004"
+    },
+    {
+      "analysis": "UFT-QG-001",
+      "change": "A dependency changed; transitive results require revalidation",
+      "consequence": "Affected results, links, coverage and assessments are pending review",
+      "date": "2026-11-07T01:01:10.814768+00:00",
+      "dependents": [
+        "UFT-QG-002",
+        "UFT-QG-003"
+      ],
+      "id": "ALERT-6f3156c7802fe574bd69",
+      "kind": "scientific",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "priority": "high",
+      "recommended_action": "Reconstruct affected arguments using the new dependency revision",
+      "scientific_status": "proven",
+      "source": "UFT-QG-001"
+    },
+    {
+      "analysis": "UFT-QG-002",
+      "change": "A dependency changed; transitive results require revalidation",
+      "consequence": "Affected results, links, coverage and assessments are pending review",
+      "date": "2026-11-07T01:01:10.845483+00:00",
+      "dependents": [
+        "UFT-QG-003"
+      ],
+      "id": "ALERT-7d13fc808c585c8ffce7",
+      "kind": "scientific",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "priority": "high",
+      "recommended_action": "Reconstruct affected arguments using the new dependency revision",
+      "scientific_status": "proven",
+      "source": "UFT-QG-002"
+    },
+    {
+      "analysis": "UFT-GO-001",
+      "change": "A dependency changed; transitive results require revalidation",
+      "consequence": "Affected results, links, coverage and assessments are pending review",
+      "date": "2026-11-07T01:01:10.931352+00:00",
+      "dependents": [
+        "UFT-GO-002",
+        "UFT-GO-003",
+        "UFT-X-001"
+      ],
+      "id": "ALERT-a731e0fc488cc864b676",
+      "kind": "scientific",
+      "objectives": [
+        "googly"
+      ],
+      "priority": "high",
+      "recommended_action": "Reconstruct affected arguments using the new dependency revision",
+      "scientific_status": "proven",
+      "source": "UFT-GO-001"
+    },
+    {
+      "analysis": "UFT-GO-002",
+      "change": "A dependency changed; transitive results require revalidation",
+      "consequence": "Affected results, links, coverage and assessments are pending review",
+      "date": "2026-11-07T01:01:10.970210+00:00",
+      "dependents": [
+        "UFT-GO-003"
+      ],
+      "id": "ALERT-a349d5bd12324a8452be",
+      "kind": "scientific",
+      "objectives": [
+        "googly"
+      ],
+      "priority": "high",
+      "recommended_action": "Reconstruct affected arguments using the new dependency revision",
+      "scientific_status": "proven",
+      "source": "UFT-GO-002"
+    },
+    {
+      "analysis": "UFT-UF-001",
+      "change": "A dependency changed; transitive results require revalidation",
+      "consequence": "Affected results, links, coverage and assessments are pending review",
+      "date": "2026-11-07T01:01:11.010117+00:00",
+      "dependents": [
+        "UFT-X-001"
+      ],
+      "id": "ALERT-b2e0ad45fac15096211f",
+      "kind": "scientific",
+      "objectives": [
+        "unification"
+      ],
+      "priority": "high",
+      "recommended_action": "Reconstruct affected arguments using the new dependency revision",
+      "scientific_status": "proven",
+      "source": "UFT-UF-001"
+    },
+    {
+      "analysis": "UFT-UF-002",
+      "change": "A dependency changed; transitive results require revalidation",
+      "consequence": "Affected results, links, coverage and assessments are pending review",
+      "date": "2026-11-07T01:01:11.040936+00:00",
+      "dependents": [
+        "UFT-UF-004"
+      ],
+      "id": "ALERT-4ffdd65317613e4a5bfa",
+      "kind": "scientific",
+      "objectives": [
+        "unification"
+      ],
+      "priority": "high",
+      "recommended_action": "Reconstruct affected arguments using the new dependency revision",
+      "scientific_status": "proven",
+      "source": "UFT-UF-002"
+    }
+  ]
+}

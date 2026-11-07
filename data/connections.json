@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "scope": "Six explicit dependency maps, no artificial minimum connectivity or asserted physical equivalence",
+  "links": [
+    {
+      "id": "SCIENCE-DEPENDENCY-001",
+      "source": "UFT-QG-001",
+      "target": "UFT-QG-002",
+      "relation": "dependency",
+      "map": "La inclusión de los dos singletes declarados en V fija el dominio y la base en que se restringe q; conserva el producto interno tensorial y su Gram.",
+      "foundation": "Dependencia del argumento o de su aplicación expresamente declarado; ver demostraciones y auditoría de los IDs, no una nueva equivalencia física.",
+      "hypotheses": [
+        "Cuatro representaciones spin1/2",
+        "Producto interno tensorial estándar",
+        "Orden y fases de research/quantum_gravity/proposal.md E",
+        "J=Pauli/2 adimensional",
+        "epsilon_xyz=+1",
+        "Orientación fija; patas distintas conmutan"
+      ],
+      "sources": [
+        "research/audits/mathematical_review.md",
+        "research/audits/scientific_review.md"
+      ],
+      "review": {
+        "status": "pending",
+        "scope": "Explicit dependency map transcribed from closed arguments; separate edge-level review remains available"
+      },
+      "status": "proposed"
+    },
+    {
+      "id": "SCIENCE-DEPENDENCY-002",
+      "source": "UFT-QG-002",
+      "target": "UFT-QG-003",
+      "relation": "dependency",
+      "map": "Se instancia el Hamiltoniano del reloj como H=kappa q en el subespacio de Gauss. La autoadjunción exige kappa real. El teorema general de evolución solo requiere H finito autoadjunto, no esa forma particular.",
+      "foundation": "Dependencia del argumento o de su aplicación expresamente declarado; ver demostraciones y auditoría de los IDs, no una nueva equivalencia física.",
+      "hypotheses": [
+        "J=Pauli/2 adimensional",
+        "epsilon_xyz=+1",
+        "Orientación fija; patas distintas conmutan",
+        "Reloj ideal T en R",
+        "pT=-i hbar d/dT autoadjunto en H1(R)",
+        "H autoadjunto finito, constante en T",
+        "Producto físico definido por evaluación"
+      ],
+      "sources": [
+        "research/audits/mathematical_review.md",
+        "research/audits/scientific_review.md"
+      ],
+      "review": {
+        "status": "pending",
+        "scope": "Explicit dependency map transcribed from closed arguments; separate edge-level review remains available"
+      },
+      "status": "proposed"
+    },
+    {
+      "id": "SCIENCE-DEPENDENCY-003",
+      "source": "UFT-GO-001",
+      "target": "UFT-GO-002",
+      "relation": "dependency",
+      "map": "Se aplica el coeficiente mixto MC a las dos DGLA explícitas: [x,y]=w, con dz=w o d=0; se conserva el grado y el anillo Artin truncado.",
+      "foundation": "Dependencia del argumento o de su aplicación expresamente declarado; ver demostraciones y auditoría de los IDs, no una nueva equivalencia física.",
+      "hypotheses": [
+        "DGLA, d²=0, Jacobi graduada, Leibniz",
+        "Grado cohomológico y parámetros de grado0",
+        "Se retiene eh pero no e² ni h²",
+        "L1=span(x,y,z), L2=span(w), otros grados0",
+        "Corchete simétrico entre x,y de grado1",
+        "No hay identificación con helicidades físicas"
+      ],
+      "sources": [
+        "research/audits/mathematical_review.md",
+        "research/audits/scientific_review.md"
+      ],
+      "review": {
+        "status": "pending",
+        "scope": "Explicit dependency map transcribed from closed arguments; separate edge-level review remains available"
+      },
+      "status": "proposed"
+    },
+    {
+      "id": "SCIENCE-DEPENDENCY-004",
+      "source": "UFT-GO-002",
+      "target": "UFT-GO-003",
+      "relation": "dependency",
+      "map": "El modelo con d=0 y clase [w] no nula es testigo contra la afirmación universal de prolongabilidad conjunta. No identifica sectores con helicidades físicas.",
+      "foundation": "Dependencia del argumento o de su aplicación expresamente declarado; ver demostraciones y auditoría de los IDs, no una nueva equivalencia física.",
+      "hypotheses": [
+        "L1=span(x,y,z), L2=span(w), otros grados0",
+        "Corchete simétrico entre x,y de grado1",
+        "No hay identificación con helicidades físicas",
+        "Anillo dual doble",
+        "[x,y]=w no nulo, [x,x]=[y,y]=0"
+      ],
+      "sources": [
+        "research/audits/mathematical_review.md",
+        "research/audits/scientific_review.md"
+      ],
+      "review": {
+        "status": "pending",
+        "scope": "Explicit dependency map transcribed from closed arguments; separate edge-level review remains available"
+      },
+      "status": "proposed"
+    },
+    {
+      "id": "SCIENCE-DEPENDENCY-005",
+      "source": "UFT-UF-002",
+      "target": "UFT-UF-004",
+      "relation": "dependency",
+      "map": "El tensor antisimétrico f012=f034=1 produce J(e1,e2,e3)=-e4. Este testigo refuta suficiencia de antisimetría para un álgebra de Lie ordinaria.",
+      "foundation": "Dependencia del argumento o de su aplicación expresamente declarado; ver demostraciones y auditoría de los IDs, no una nueva equivalencia física.",
+      "hypotheses": [
+        "R5 real, delta positiva",
+        "Componentes f extendidas por antisimetría y resto0",
+        "Ansatz gauge de Lie del banco",
+        "No pretende refutar L_infinity ni todas las ampliaciones"
+      ],
+      "sources": [
+        "research/audits/mathematical_review.md",
+        "research/audits/scientific_review.md"
+      ],
+      "review": {
+        "status": "pending",
+        "scope": "Explicit dependency map transcribed from closed arguments; separate edge-level review remains available"
+      },
+      "status": "proposed"
+    },
+    {
+      "id": "SCIENCE-DEPENDENCY-006",
+      "source": "UFT-UF-001",
+      "target": "UFT-X-001",
+      "relation": "dependency",
+      "map": "El corrimiento L^n=F^(gh=n-1) lleva el antibracket BV de grado fantasma+1 a grado cohomológico0 y s=(S0,.) al diferencial de grado1, con paridad compatible en el banco bosónico.",
+      "foundation": "Dependencia del argumento o de su aplicación expresamente declarado; ver demostraciones y auditoría de los IDs, no una nueva equivalencia física.",
+      "hypotheses": [
+        "Antibracket BV y s=(S0,.)",
+        "Funcionales locales integrados modulo derivadas totales",
+        "Variaciones compactamente soportadas",
+        "Expansión formal sin inferir convergencia",
+        "Funcionales locales BV bien definidos",
+        "(S0,S0)=0",
+        "Dos vértices locales de gh0 cerrados",
+        "Mismas condiciones de contorno; característica0",
+        "No se identifica el juguete finito con un complejo twistorial físico",
+        "Banco bosónico: paridad Grassmann igual a número fantasma modulo2; con fermiones se requiere supergraduación adicional"
+      ],
+      "sources": [
+        "research/audits/mathematical_review.md",
+        "research/audits/scientific_review.md"
+      ],
+      "review": {
+        "status": "pending",
+        "scope": "Explicit dependency map transcribed from closed arguments; separate edge-level review remains available"
+      },
+      "status": "proposed"
+    }
+  ]
+}

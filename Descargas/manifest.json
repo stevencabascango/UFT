@@ -1,0 +1,11 @@
+{
+  "guide": {
+    "path": "Descargas/UFT_guide.pdf",
+    "sha256": "1622c47c0e2e77107934d58ddb35a4802a8fc9ce7b4bb0ac06eb44c2aeafd81a",
+    "pages": 5,
+    "producer": "texcompile / LuaLaTeX; extracted with pdftxt to check contents"
+  },
+  "full_repository_archive": "UFT-GENIUS5000.zip is generated outside the checkout from the closed commit",
+  "download_index": "Descargas/README.md",
+  "scope": "Guide plus full research sources, reproducible calculations, audits, test evidence and portable exports"
+}

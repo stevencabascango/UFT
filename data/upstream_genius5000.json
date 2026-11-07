@@ -1,0 +1,7 @@
+{
+  "source_repository": "https://github.com/stevencabascango/Conf-Claude-Codex",
+  "source_commit": "85ecc71f4cc03b62247b9d5f390c6350e185d409",
+  "registry_sha256": "f13d544c7f126bce3c756e51ad07db422e6e854c3e3615d1e0e1312ef2e24344",
+  "profile_count": 5000,
+  "reuse": "Explicitly requested by repository owner; design profiles, not validated scientific capabilities"
+}

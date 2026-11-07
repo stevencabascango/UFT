@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uft-genius5000"
+version = "0.1.0"
+description = "Investigación integrada, evidencia versionada y análisis incremental de física fundamental"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+science = ["sympy>=1.12", "numpy>=1.26"]
+
+[project.scripts]
+uft = "uft.__main__:main"
+genius5000 = "genius.__main__:main"
+
+[tool.setuptools]
+packages = ["uft", "genius"]

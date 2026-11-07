@@ -1,0 +1,26 @@
+{
+  "budgets": {
+    "concurrency": 1,
+    "max_calls": 2,
+    "max_seconds": 120
+  },
+  "conventions": {
+    "bv": "bosonic parity=ghost_number mod2, local functionals modulo total derivatives",
+    "clock": "T real, hbar>0, finite selfadjoint H, generalized solutions",
+    "dgla": "char0, degree1 closed directions, epsilon^2=eta^2=0",
+    "spin": "J=Pauli/2, epsilon_xyz=+1, fixed phases"
+  },
+  "criteria": [
+    "Exact reconstruction",
+    "Physical scope",
+    "Counterexamples",
+    "Hypotheses and provenance"
+  ],
+  "documentary_base": [
+    "research/quantum_gravity/proposal.md",
+    "research/googly_problem/proposal.md",
+    "research/unified_field_theory/proposal.md"
+  ],
+  "problem": "Reproducir y evaluar tres bancos delimitados: reloj ideal sobre intertwiner SU2, obstrucción MC mixta y contraejemplo Jacobi. No asumir solución de las metas físicas.",
+  "protocol": "Develop separately. Seal both reports before cross-review."
+}

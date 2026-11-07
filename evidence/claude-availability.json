@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-11-07T00:50:56.665792+00:00",
+  "cli_available": true,
+  "model": null,
+  "max_model_attempts": 1,
+  "max_seconds": 15,
+  "comparison": "pending",
+  "scientific_claims": [],
+  "execution_status": "timeout",
+  "returncode": -9,
+  "stdout": "",
+  "stderr": "",
+  "limitations": "Availability only. Even a successful probe is not an independently closed scientific report."
+}

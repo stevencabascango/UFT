@@ -1,0 +1,14 @@
+{
+  "brief_sha256": "6efca258c872b821e4562e3f53b62e8e32ccd2de10aa2f53d4cbdd6601b672f5",
+  "limitations": "Different folders/contexts are administrative separation, not a security boundary or independent training.",
+  "phase": "independent-development",
+  "reports": {
+    "codex": {
+      "execution_id": "uft-physics-drafting-20261106",
+      "path": "codex/report.json",
+      "sealed": "2026-11-07T01:03:33.147588+00:00",
+      "sha256": "0233c02b90688dfdb36c9ba074ca83c960d4c3ec290e5ac9c8375b441ffbd854"
+    }
+  },
+  "status": "pending"
+}

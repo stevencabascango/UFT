@@ -1,0 +1,21 @@
+{
+  "execution_id": "cycle-001-producer",
+  "role": "producer",
+  "backend": "deterministic_local_program",
+  "llm": false,
+  "command": [
+    "/home/asus/.local/bin/scipython",
+    "/home/asus/UFT/scripts/science_examples.py",
+    "--output",
+    "/home/asus/UFT/evidence/cycle-001/producer.json",
+    "--sympy"
+  ],
+  "returncode": 0,
+  "stdout": "Evidence saved: /home/asus/UFT/evidence/cycle-001/producer.json\n",
+  "stderr": "",
+  "completed_utc": "2026-11-07T00:47:33.409238+00:00",
+  "artifact": "/home/asus/UFT/evidence/cycle-001/producer.json",
+  "artifact_sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+  "comparison_verified": null,
+  "status": "completed"
+}

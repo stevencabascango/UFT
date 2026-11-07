@@ -1,0 +1,9 @@
+[Unit]
+Description=UFT bounded source observer (no model calls)
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/UFT
+ExecStart=/usr/bin/flock -n %h/UFT/.uft/observer.lock /usr/bin/python3 -m uft watch --brain %h/onedrive-cerebros/brain_uft --master %h/TWISTOR_TOPOLOGY_RESEARCH --max-cycles 1 --max-seconds 45 --quiet
+TimeoutStartSec=60
+UMask=0077

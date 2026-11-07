@@ -1,0 +1,22 @@
+name: Reproducible checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Registry, skills, scientific examples and adversarial tests
+        run: python3 scripts/check.py --output /tmp/uft-checks.json
+      - name: Reproduce finite science and independent checker
+        run: python3 -m uft cycle --output /tmp/uft-cycle
+      - name: Validate integrated inventory
+        run: python3 -m uft validate

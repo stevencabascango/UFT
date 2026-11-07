@@ -1,0 +1,539 @@
+{
+  "status": "completed",
+  "execution_id": "uft-physics-drafting-20261106",
+  "tools": [
+    "local files",
+    "scipython",
+    "SymPy",
+    "primary-source web retrieval"
+  ],
+  "model": null,
+  "claims": [
+    {
+      "id": "UFT-QG-001",
+      "kind": "result",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "statement": "El subespacio Inv_SU(2)((C²)^tensor4) tiene dimensión2 y la base b0,b1 documentada es ortonormal y satisface Gauss.",
+      "hypotheses": [
+        "Cuatro representaciones spin1/2",
+        "Producto interno tensorial estándar",
+        "Orden y fases de research/quantum_gravity/proposal.md E"
+      ],
+      "evidence": [
+        {
+          "path": "research/quantum_gravity/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-QG-002",
+      "kind": "result",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "statement": "q=epsilon_abc J1aJ2bJ3c preserva Gauss y en la base ortonormal documentada es sqrt(3)/4 sigma_y, q²=3I/16.",
+      "hypotheses": [
+        "J=Pauli/2 adimensional",
+        "epsilon_xyz=+1",
+        "Orientación fija; patas distintas conmutan"
+      ],
+      "evidence": [
+        {
+          "path": "research/quantum_gravity/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [
+        "UFT-QG-001"
+      ],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-QG-003",
+      "kind": "result",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "statement": "Para Hamiltoniano finito autoadjunto, C=pT+H tiene soluciones generalizadas U(T,T0)psi0; evaluación define producto físico positivo independiente de T0; no son L2(dT).",
+      "hypotheses": [
+        "Reloj ideal T en R",
+        "pT=-i hbar d/dT autoadjunto en H1(R)",
+        "H autoadjunto finito, constante en T",
+        "Producto físico definido por evaluación"
+      ],
+      "evidence": [
+        {
+          "path": "research/quantum_gravity/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [
+        "UFT-QG-002"
+      ],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-QG-004",
+      "kind": "counterexample",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "statement": "Afirmación refutada: toda matriz Hamiltoniana finita conserva norma relacional. K=i*kappa*I produce norma²=e^(2*kappa*deltaT/hbar).",
+      "hypotheses": [
+        "kappa real no cero",
+        "Mismo reloj ideal y producto de evaluación"
+      ],
+      "evidence": [
+        {
+          "path": "research/quantum_gravity/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "refuted",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-GO-001",
+      "kind": "result",
+      "objectives": [
+        "googly"
+      ],
+      "statement": "En una DGLA de característica0, a± cerrados de grado1 se extienden a MC sobre K[e,h]/(e²,h²) iff la clase [[a+,a-]] en H² es cero.",
+      "hypotheses": [
+        "DGLA, d²=0, Jacobi graduada, Leibniz",
+        "Grado cohomológico y parámetros de grado0",
+        "Se retiene eh pero no e² ni h²"
+      ],
+      "evidence": [
+        {
+          "path": "research/googly_problem/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-GO-002",
+      "kind": "result",
+      "objectives": [
+        "googly"
+      ],
+      "statement": "Los ejemplos [x,y]=w, w central dan extensión mixta con b=-z si dz=w y obstrucción no nula si d=0.",
+      "hypotheses": [
+        "L1=span(x,y,z), L2=span(w), otros grados0",
+        "Corchete simétrico entre x,y de grado1",
+        "No hay identificación con helicidades físicas"
+      ],
+      "evidence": [
+        {
+          "path": "research/googly_problem/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [
+        "UFT-GO-001"
+      ],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-GO-003",
+      "kind": "counterexample",
+      "objectives": [
+        "googly"
+      ],
+      "statement": "Afirmación refutada: resolver por separado dos direcciones MC garantiza su combinación; el ejemplo d=0 tiene residuo eh*w no nulo.",
+      "hypotheses": [
+        "Anillo dual doble",
+        "[x,y]=w no nulo, [x,x]=[y,y]=0"
+      ],
+      "evidence": [
+        {
+          "path": "research/googly_problem/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [
+        "UFT-GO-002"
+      ],
+      "status": "refuted",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-UF-001",
+      "kind": "result",
+      "objectives": [
+        "unification"
+      ],
+      "statement": "Para funcionales locales BV, (S0,S0)=0 y sS1=0, existe S2 local de segundo orden iff [(S1,S1)/2] es cero en H1 local(s).",
+      "hypotheses": [
+        "Antibracket BV y s=(S0,.)",
+        "Funcionales locales integrados modulo derivadas totales",
+        "Variaciones compactamente soportadas",
+        "Expansión formal sin inferir convergencia"
+      ],
+      "evidence": [
+        {
+          "path": "research/unified_field_theory/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-UF-002",
+      "kind": "result",
+      "objectives": [
+        "unification"
+      ],
+      "statement": "En R5 con delta y f012=f034=1 totalmente antisimétrico, la métrica es invariante pero Jacobi(e1,e2,e3)=-e4, índices desde0.",
+      "hypotheses": [
+        "R5 real, delta positiva",
+        "Componentes f extendidas por antisimetría y resto0"
+      ],
+      "evidence": [
+        {
+          "path": "research/unified_field_theory/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-UF-003",
+      "kind": "result",
+      "objectives": [
+        "unification"
+      ],
+      "statement": "En R3 con f012=1 totalmente antisimétrico se cumple Jacobi: control su(2) en normalización real.",
+      "hypotheses": [
+        "Base real y producto interno delta",
+        "Los únicos componentes independientes son f012=1"
+      ],
+      "evidence": [
+        {
+          "path": "research/unified_field_theory/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-UF-004",
+      "kind": "counterexample",
+      "objectives": [
+        "unification"
+      ],
+      "statement": "Afirmación refutada: toda forma cúbica totalmente antisimétrica prolonga automáticamente un álgebra gauge de Lie.",
+      "hypotheses": [
+        "Ansatz gauge de Lie del banco",
+        "No pretende refutar L_infinity ni todas las ampliaciones"
+      ],
+      "evidence": [
+        {
+          "path": "research/unified_field_theory/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [
+        "UFT-UF-002"
+      ],
+      "status": "refuted",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-X-001",
+      "kind": "result",
+      "objectives": [
+        "googly",
+        "unification"
+      ],
+      "statement": "Para el banco bosónico con paridad Grassmann=gh modulo2, el complejo BV local desplazado L^n=F^(gh=n-1), d=(S0,.), corchete=antibracket es la estructura DGLA a la que se aplica el criterio mixto; H²(L)=H1_BV. No es equivalencia física entre metas.",
+      "hypotheses": [
+        "Funcionales locales BV bien definidos",
+        "(S0,S0)=0",
+        "Dos vértices locales de gh0 cerrados",
+        "Mismas condiciones de contorno; característica0",
+        "No se identifica el juguete finito con un complejo twistorial físico",
+        "Banco bosónico: paridad Grassmann igual a número fantasma modulo2; con fermiones se requiere supergraduación adicional"
+      ],
+      "evidence": [
+        {
+          "path": "research/unified_field_theory/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [
+        "UFT-GO-001",
+        "UFT-UF-001"
+      ],
+      "status": "pending_audit",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-PROGRAM-QG",
+      "kind": "candidate",
+      "objectives": [
+        "quantum_gravity"
+      ],
+      "statement": "GLRC: programa de relojes relacionales y geometría de lazos",
+      "hypotheses": [
+        "Propuesta de investigación, no teoría completa",
+        "Predicciones observacionales nuevas pendientes"
+      ],
+      "evidence": [
+        {
+          "path": "research/quantum_gravity/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "proposal",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-PROGRAM-GO",
+      "kind": "candidate",
+      "objectives": [
+        "googly"
+      ],
+      "statement": "OMRG: programa de obstrucciones mixtas y reconstrucción",
+      "hypotheses": [
+        "Propuesta de investigación, no teoría completa",
+        "Predicciones observacionales nuevas pendientes"
+      ],
+      "evidence": [
+        {
+          "path": "research/googly_problem/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "proposal",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    },
+    {
+      "id": "UFT-PROGRAM-UF",
+      "kind": "candidate",
+      "objectives": [
+        "unification"
+      ],
+      "statement": "AFOL: programa de acoplamientos locales y contenido físico",
+      "hypotheses": [
+        "Propuesta de investigación, no teoría completa",
+        "Predicciones observacionales nuevas pendientes"
+      ],
+      "evidence": [
+        {
+          "path": "research/unified_field_theory/proposal.md",
+          "scope": "argumento matemático con hipótesis; revisión separada pendiente"
+        },
+        {
+          "path": "research/calculations/first_cycle.json",
+          "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "scope": "cálculos finitos; no prueba de teoría física general"
+        }
+      ],
+      "dependencies": [],
+      "status": "proposal",
+      "review": {
+        "status": "pending",
+        "producer_execution": "uft-physics-drafting-20261106",
+        "internal": true,
+        "external_review": null
+      },
+      "sources": [],
+      "testability": "Sin consecuencias observacionales identificadas"
+    }
+  ],
+  "artifacts": [
+    "research/first_cycle.md",
+    "evidence/scientific-review.json"
+  ],
+  "design_note": "Retrospectively formalized first-cycle brief; not a prospective controlled experiment. Future rerun should seal the brief before either model begins."
+}

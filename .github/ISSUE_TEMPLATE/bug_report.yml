@@ -1,0 +1,22 @@
+name: Fallo reproducible del software
+description: Registrar una entrada, comando y comportamiento observado.
+title: '[Software] '
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos y entrada mínima
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado observado y esperado
+      description: Adjunta logs sin credenciales, versión Python y commit.
+    validations:
+      required: true
+  - type: textarea
+    id: scientific-impact
+    attributes:
+      label: Posible impacto científico
+      description: IDs y versiones de resultados que podrían requerir revisión, si se conocen.

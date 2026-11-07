@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "consulted_utc": "2026-11-06",
+  "sources": [
+    {
+      "id": "ELLIS-SILK-2014",
+      "authors": [
+        "George Ellis",
+        "Joe Silk"
+      ],
+      "title": "Scientific method: Defend the integrity of physics",
+      "year": 2014,
+      "doi": "10.1038/516321a",
+      "url": "https://www.nature.com/articles/516321a",
+      "verified_metadata": true,
+      "access": "Publisher search result and PubMed metadata; Nature full page redirects to inaccessible authentication",
+      "result_used": "Methodological demand to retain empirical checks on speculative physics. Not a theorem excluding every form of theoretical assessment."
+    },
+    {
+      "id": "DAWID-2017",
+      "authors": [
+        "Richard Dawid"
+      ],
+      "title": "The Significance of Non-Empirical Confirmation in Fundamental Physics",
+      "year": 2017,
+      "arxiv": "1702.01133v1",
+      "url": "https://arxiv.org/abs/1702.01133",
+      "verified_metadata": true,
+      "access": "arXiv abstract and HTML consulted",
+      "result_used": "Discussion of no-alternatives, unexpected explanatory connections and meta-inductive arguments. Assess their premises and objections separately from experimental evidence.",
+      "date_note": "Canonical submission date is 2017-02-03. The converted HTML header displays 2026-08-24; do not treat its rendering date as the submission year."
+    },
+    {
+      "id": "ROVELLI-2016",
+      "authors": [
+        "Carlo Rovelli"
+      ],
+      "title": "The dangers of non-empirical confirmation",
+      "year": 2016,
+      "arxiv": "1609.01966v1",
+      "url": "https://arxiv.org/abs/1609.01966",
+      "verified_metadata": true,
+      "access": "arXiv abstract consulted; full argument not reconstructed",
+      "result_used": "Critical position on excessive trust in non-empirical evidence; document a genuine methodological disagreement rather than a consensus."
+    }
+  ],
+  "limits": [
+    "Finite methodological search on 2026-11-06; no exhaustive literature or novelty claim.",
+    "No numerical truth probabilities are assigned."
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "audits": [
+    {
+      "claim_id": "HODGE-E4-001",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-006/attempt-1/audit.json": "7d45d108c298ebbafde4b2f230bb218bd469ca266fbc700bae9decd3c4ef571e"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-006/attempt-1/audit.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Finite exact reconstruction; shared source code; zero LLM research executions; no external review",
+        "recorded": "2026-11-07T01:06:51.800694+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "HODGE-INTERNAL-001",
+      "producer_execution": "executions/task-002/attempt-1",
+      "reviewer_execution": "executions/task-006/attempt-1",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    }
+  ],
+  "claims": [
+    {
+      "artifacts": [
+        "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/mathematics.json"
+      ],
+      "dependencies": [
+        "HODGE-E4-001"
+      ],
+      "hypotheses": [
+        "Oriented Euclidean R4; metric diag(+1,+1,+1,+1)",
+        "Real two-forms; positive e1∧e2∧e3∧e4; orthonormal coframe"
+      ],
+      "id": "HODGE-DIMENSIONS",
+      "review_reason": "Demonstration of dependency invalidation: a proposed signature change requires recomputation",
+      "revision": 2,
+      "sources": [
+        {
+          "id": "HODGE-DEFINITION",
+          "kind": "definition",
+          "statement": "alpha∧*beta=<alpha,beta>vol"
+        }
+      ],
+      "statement": "Each real eigenspace has dimension three for this fixture",
+      "status": "review",
+      "status_label": "EN REVISIÓN"
+    },
+    {
+      "artifacts": [
+        "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/mathematics.json"
+      ],
+      "dependencies": [],
+      "hypotheses": [
+        "Signature change proposed; this revision is not evaluated"
+      ],
+      "id": "HODGE-E4-001",
+      "review_reason": "Demonstration of dependency invalidation: a proposed signature change requires recomputation",
+      "revision": 2,
+      "sources": [
+        {
+          "id": "HODGE-DEFINITION",
+          "kind": "definition",
+          "statement": "alpha∧*beta=<alpha,beta>vol"
+        }
+      ],
+      "statement": "For this declared six-dimensional fixture, *²=I",
+      "status": "review",
+      "status_label": "EN REVISIÓN"
+    },
+    {
+      "artifacts": [
+        "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-005/attempt-1/counterexample.json"
+      ],
+      "dependencies": [],
+      "hypotheses": [
+        "Oriented Euclidean R4; metric diag(+1,+1,+1,+1)",
+        "Real two-forms; positive e1∧e2∧e3∧e4; orthonormal coframe"
+      ],
+      "id": "HODGE-E4-FALSE",
+      "revision": 1,
+      "sources": [
+        {
+          "id": "HODGE-DEFINITION",
+          "kind": "definition",
+          "statement": "alpha∧*beta=<alpha,beta>vol"
+        }
+      ],
+      "statement": "For real Euclidean R4 two-forms, *²=-I",
+      "status": "refuted",
+      "status_label": "REFUTADO"
+    }
+  ],
+  "executions": [
+    {
+      "backend": "deterministic-reference",
+      "id": "executions/task-002/attempt-1",
+      "record_path": "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/result.json",
+      "role": "mathematics",
+      "sha256": "c006bef66f45fd3e5d79a512e86a7571373ae10436f2b505b07cc5a38514a0f0"
+    },
+    {
+      "backend": "deterministic-reference",
+      "id": "executions/task-006/attempt-1",
+      "record_path": "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-006/attempt-1/result.json",
+      "role": "audit",
+      "sha256": "08992203b5dbce6a4f0d15657a9c200146c05ade1b7aaadf8a12bef4014df294"
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "HODGE-E4-001",
+      "data": {
+        "artifacts": [
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/mathematics.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "Oriented Euclidean R4; metric diag(+1,+1,+1,+1)",
+          "Real two-forms; positive e1∧e2∧e3∧e4; orthonormal coframe"
+        ],
+        "id": "HODGE-E4-001",
+        "revision": 1,
+        "sources": [
+          {
+            "id": "HODGE-DEFINITION",
+            "kind": "definition",
+            "statement": "alpha∧*beta=<alpha,beta>vol"
+          }
+        ],
+        "statement": "For this declared six-dimensional fixture, *²=I",
+        "status": "evidence"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:06:51.795018+00:00",
+      "revision": 1,
+      "sequence": 1
+    },
+    {
+      "claim_id": "HODGE-E4-FALSE",
+      "data": {
+        "artifacts": [
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-005/attempt-1/counterexample.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "Oriented Euclidean R4; metric diag(+1,+1,+1,+1)",
+          "Real two-forms; positive e1∧e2∧e3∧e4; orthonormal coframe"
+        ],
+        "id": "HODGE-E4-FALSE",
+        "revision": 1,
+        "sources": [
+          {
+            "id": "HODGE-DEFINITION",
+            "kind": "definition",
+            "statement": "alpha∧*beta=<alpha,beta>vol"
+          }
+        ],
+        "statement": "For real Euclidean R4 two-forms, *²=-I",
+        "status": "refuted"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:06:51.806338+00:00",
+      "revision": 1,
+      "sequence": 2
+    },
+    {
+      "claim_id": "HODGE-DIMENSIONS",
+      "data": {
+        "artifacts": [
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/mathematics.json"
+        ],
+        "dependencies": [
+          "HODGE-E4-001"
+        ],
+        "hypotheses": [
+          "Oriented Euclidean R4; metric diag(+1,+1,+1,+1)",
+          "Real two-forms; positive e1∧e2∧e3∧e4; orthonormal coframe"
+        ],
+        "id": "HODGE-DIMENSIONS",
+        "revision": 1,
+        "sources": [
+          {
+            "id": "HODGE-DEFINITION",
+            "kind": "definition",
+            "statement": "alpha∧*beta=<alpha,beta>vol"
+          }
+        ],
+        "statement": "Each real eigenspace has dimension three for this fixture",
+        "status": "evidence"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:06:51.811381+00:00",
+      "revision": 1,
+      "sequence": 3
+    },
+    {
+      "claim_id": "HODGE-E4-001",
+      "data": {
+        "artifacts": [
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/mathematics.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "Signature change proposed; this revision is not evaluated"
+        ],
+        "id": "HODGE-E4-001",
+        "review_reason": "Demonstration of dependency invalidation: a proposed signature change requires recomputation",
+        "revision": 2,
+        "sources": [
+          {
+            "id": "HODGE-DEFINITION",
+            "kind": "definition",
+            "statement": "alpha∧*beta=<alpha,beta>vol"
+          }
+        ],
+        "statement": "For this declared six-dimensional fixture, *²=I",
+        "status": "review",
+        "status_label": "EVIDENCIA SIMBÓLICA O NUMÉRICA"
+      },
+      "event": "revised",
+      "recorded": "2026-11-07T01:06:51.821783+00:00",
+      "revision": 2,
+      "sequence": 4
+    },
+    {
+      "claim_id": "HODGE-DIMENSIONS",
+      "data": {
+        "artifacts": [
+          "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/mathematics.json"
+        ],
+        "dependencies": [
+          "HODGE-E4-001"
+        ],
+        "hypotheses": [
+          "Oriented Euclidean R4; metric diag(+1,+1,+1,+1)",
+          "Real two-forms; positive e1∧e2∧e3∧e4; orthonormal coframe"
+        ],
+        "id": "HODGE-DIMENSIONS",
+        "review_reason": "Demonstration of dependency invalidation: a proposed signature change requires recomputation",
+        "revision": 2,
+        "sources": [
+          {
+            "id": "HODGE-DEFINITION",
+            "kind": "definition",
+            "statement": "alpha∧*beta=<alpha,beta>vol"
+          }
+        ],
+        "statement": "Each real eigenspace has dimension three for this fixture",
+        "status": "review",
+        "status_label": "EVIDENCIA SIMBÓLICA O NUMÉRICA"
+      },
+      "event": "dependency_changed",
+      "recorded": "2026-11-07T01:06:51.821882+00:00",
+      "revision": 2,
+      "sequence": 5
+    }
+  ],
+  "limits": "Audit records are attestations with linked evidence, not automatic proof checking.",
+  "schema_version": "1.0",
+  "states": {
+    "conjecture": "CONJETURA",
+    "established": "RESULTADO ESTABLECIDO",
+    "evidence": "EVIDENCIA SIMBÓLICA O NUMÉRICA",
+    "formal": "VERIFICADO FORMALMENTE",
+    "pending_audit": "DERIVACIÓN PENDIENTE DE AUDITORÍA",
+    "proposal": "PROPUESTA",
+    "proven": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS",
+    "refuted": "REFUTADO",
+    "review": "EN REVISIÓN"
+  }
+}

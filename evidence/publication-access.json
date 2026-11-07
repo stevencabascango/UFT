@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/stevencabascango/UFT",
+  "authorized_by_owner": true,
+  "initial_remote_state": "empty main; repository exists",
+  "git_read_probe": "DNS failure: Could not resolve host github.com",
+  "connector_write_probe": {
+    "operation": "create_blob using actual prepared README content",
+    "status": 403,
+    "message": "Resource not accessible by integration"
+  },
+  "published": false,
+  "next_action": "Run python3 /home/asus/UFT/scripts/publish.py in the already authenticated normal WSL terminal, then verify remote SHA",
+  "reauthentication_required_by_this_evidence": false
+}

@@ -1,0 +1,2458 @@
+{
+  "valid": true,
+  "registry": {
+    "valid": true,
+    "errors": [],
+    "profile_count": 5000,
+    "division_counts": {
+      "rg": 500,
+      "lqg": 500,
+      "strings": 450,
+      "twistors": 650,
+      "topology": 550,
+      "algebraic_geometry": 550,
+      "qft": 500,
+      "categories": 350,
+      "computation": 500,
+      "integration": 450
+    },
+    "schema_version": "1.0.0",
+    "uniqueness": {
+      "unique_ids": 5000,
+      "semantic_fingerprints": 5000,
+      "exact_semantic_duplicate_pairs": [],
+      "malformed_rows": 0
+    },
+    "coverage": {
+      "scientific_lines": 100,
+      "roles": {
+        "conceptual": 500,
+        "mathematics": 1000,
+        "computation": 500,
+        "counterexample": 1000,
+        "physics": 500,
+        "audit": 500,
+        "integration": 1000
+      },
+      "program_tags": {
+        "quantum_gravity": 5000,
+        "unified_field_theory": 3850,
+        "googly": 2700
+      },
+      "distinct_dimension_counts": {
+        "specialty": 100,
+        "objects": 500,
+        "problems": 5000,
+        "methods": 5000,
+        "regime": 500,
+        "review_responsibilities": 10
+      },
+      "lines": {
+        "rg:01": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:02": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:03": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:04": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:05": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:06": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:07": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:08": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:09": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "rg:10": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:01": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:02": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:03": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:04": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:05": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:06": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:07": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:08": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:09": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "lqg:10": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:01": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:02": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:03": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:04": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:05": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:06": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:07": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:08": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "strings:09": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:01": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:02": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:03": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:04": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:05": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:06": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:07": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:08": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:09": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:10": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:11": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:12": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "twistors:13": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:01": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:02": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:03": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:04": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:05": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:06": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:07": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:08": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:09": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:10": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "topology:11": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:01": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:02": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:03": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:04": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:05": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:06": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:07": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:08": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:09": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:10": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "algebraic_geometry:11": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:01": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:02": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:03": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:04": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:05": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:06": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:07": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:08": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:09": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "qft:10": {
+          "profiles": 50,
+          "modes": [
+            "comparison",
+            "finite",
+            "global",
+            "local",
+            "perturbative"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:01": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:02": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:03": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:04": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:05": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:06": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "categories:07": {
+          "profiles": 50,
+          "modes": [
+            "affine-local",
+            "comparison",
+            "deformation",
+            "finite-example",
+            "global-descent"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:01": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:02": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:03": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:04": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:05": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:06": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:07": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:08": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:09": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "computation:10": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-tool",
+            "exact",
+            "refinement",
+            "reproduction"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:01": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:02": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:03": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:04": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:05": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:06": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:07": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:08": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        },
+        "integration:09": {
+          "profiles": 50,
+          "modes": [
+            "adversarial",
+            "cross-program",
+            "reconstruction",
+            "reproducibility",
+            "scope"
+          ],
+          "tasks": [
+            "definitions",
+            "degeneration",
+            "dependencies",
+            "derivation",
+            "dictionary",
+            "example",
+            "hypotheses",
+            "refutation",
+            "symmetry",
+            "synthesis"
+          ]
+        }
+      }
+    },
+    "proximity": {
+      "shared_context_groups": 500,
+      "examples": [
+        {
+          "line": "rg:01",
+          "mode": "local",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0001",
+            "G5K-RG-0002",
+            "G5K-RG-0003",
+            "G5K-RG-0004",
+            "G5K-RG-0005",
+            "G5K-RG-0006",
+            "G5K-RG-0007",
+            "G5K-RG-0008",
+            "G5K-RG-0009",
+            "G5K-RG-0010"
+          ]
+        },
+        {
+          "line": "rg:01",
+          "mode": "perturbative",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0011",
+            "G5K-RG-0012",
+            "G5K-RG-0013",
+            "G5K-RG-0014",
+            "G5K-RG-0015",
+            "G5K-RG-0016",
+            "G5K-RG-0017",
+            "G5K-RG-0018",
+            "G5K-RG-0019",
+            "G5K-RG-0020"
+          ]
+        },
+        {
+          "line": "rg:01",
+          "mode": "global",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0021",
+            "G5K-RG-0022",
+            "G5K-RG-0023",
+            "G5K-RG-0024",
+            "G5K-RG-0025",
+            "G5K-RG-0026",
+            "G5K-RG-0027",
+            "G5K-RG-0028",
+            "G5K-RG-0029",
+            "G5K-RG-0030"
+          ]
+        },
+        {
+          "line": "rg:01",
+          "mode": "finite",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0031",
+            "G5K-RG-0032",
+            "G5K-RG-0033",
+            "G5K-RG-0034",
+            "G5K-RG-0035",
+            "G5K-RG-0036",
+            "G5K-RG-0037",
+            "G5K-RG-0038",
+            "G5K-RG-0039",
+            "G5K-RG-0040"
+          ]
+        },
+        {
+          "line": "rg:01",
+          "mode": "comparison",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0041",
+            "G5K-RG-0042",
+            "G5K-RG-0043",
+            "G5K-RG-0044",
+            "G5K-RG-0045",
+            "G5K-RG-0046",
+            "G5K-RG-0047",
+            "G5K-RG-0048",
+            "G5K-RG-0049",
+            "G5K-RG-0050"
+          ]
+        },
+        {
+          "line": "rg:02",
+          "mode": "local",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0051",
+            "G5K-RG-0052",
+            "G5K-RG-0053",
+            "G5K-RG-0054",
+            "G5K-RG-0055",
+            "G5K-RG-0056",
+            "G5K-RG-0057",
+            "G5K-RG-0058",
+            "G5K-RG-0059",
+            "G5K-RG-0060"
+          ]
+        },
+        {
+          "line": "rg:02",
+          "mode": "perturbative",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0061",
+            "G5K-RG-0062",
+            "G5K-RG-0063",
+            "G5K-RG-0064",
+            "G5K-RG-0065",
+            "G5K-RG-0066",
+            "G5K-RG-0067",
+            "G5K-RG-0068",
+            "G5K-RG-0069",
+            "G5K-RG-0070"
+          ]
+        },
+        {
+          "line": "rg:02",
+          "mode": "global",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0071",
+            "G5K-RG-0072",
+            "G5K-RG-0073",
+            "G5K-RG-0074",
+            "G5K-RG-0075",
+            "G5K-RG-0076",
+            "G5K-RG-0077",
+            "G5K-RG-0078",
+            "G5K-RG-0079",
+            "G5K-RG-0080"
+          ]
+        },
+        {
+          "line": "rg:02",
+          "mode": "finite",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0081",
+            "G5K-RG-0082",
+            "G5K-RG-0083",
+            "G5K-RG-0084",
+            "G5K-RG-0085",
+            "G5K-RG-0086",
+            "G5K-RG-0087",
+            "G5K-RG-0088",
+            "G5K-RG-0089",
+            "G5K-RG-0090"
+          ]
+        },
+        {
+          "line": "rg:02",
+          "mode": "comparison",
+          "profiles": 10,
+          "reason": "shared research line and scope; task and required output differ",
+          "ids": [
+            "G5K-RG-0091",
+            "G5K-RG-0092",
+            "G5K-RG-0093",
+            "G5K-RG-0094",
+            "G5K-RG-0095",
+            "G5K-RG-0096",
+            "G5K-RG-0097",
+            "G5K-RG-0098",
+            "G5K-RG-0099",
+            "G5K-RG-0100"
+          ]
+        }
+      ],
+      "interpretation": "Structural sharing is reported, not concealed. Semantic and scientific originality require human/task-specific review."
+    },
+    "capability_status": {
+      "scientific_evaluation": "pending_individual_runs",
+      "integrity_validation": "passed",
+      "registered_profiles_are_not_executed_agents": true
+    }
+  },
+  "skills": {
+    "valid": true,
+    "count": 27,
+    "core_count": 22,
+    "integrated_count": 5,
+    "errors": [],
+    "scientific_goals_achieved": false,
+    "scope": "Skill discovery, adapters and structural contracts; scientific effectiveness requires task-specific evidence."
+  },
+  "goals": 3,
+  "registry_sha256": "f13d544c7f126bce3c756e51ad07db422e6e854c3e3615d1e0e1312ef2e24344",
+  "errors": [],
+  "scope": "Structural validation; individual scientific competence and completeness of physical theories remain unestablished."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "EXAMPLE-EVENT-001",
+  "source": "User-authored example, not a scientific result",
+  "version": "1",
+  "entity": {
+    "id": "EXAMPLE-QUESTION-001",
+    "kind": "question",
+    "objectives": [
+      "quantum_gravity"
+    ],
+    "statement": "¿Qué condiciones permiten extender el reloj ideal finito a un reloj con retroacción en un modelo de lazos?",
+    "hypotheses": [
+      "Pregunta abierta; no se afirma que exista esa extensión"
+    ],
+    "evidence": [],
+    "dependencies": [],
+    "status": "proposal",
+    "review": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "scope": "Software integration history; not physical refutations",
+  "corrections": [
+    {
+      "issue": "Cycle did not explicitly compare independently reconstructed output with producer",
+      "fix": "Added --producer, checked passed and exact producer hash; unique IDs and refusal to reuse output preserve provenance",
+      "failed_attempts": [
+        "evidence/cycle-001/cycle.json",
+        "evidence/cycle-001-reviewed/cycle.json"
+      ],
+      "resolution": "evidence/cycle-001-final/cycle.json",
+      "test": "CycleAcceptanceTests"
+    },
+    {
+      "issue": "Changes or rejection of a propagating connection could leave dependent assessments valid",
+      "fix": "Invalidate target and descendants, coverage and criteria; reject endpoint changes",
+      "test": "ResearchStoreTests.test_changed_connection_hypothesis_invalidates_target_and_descendants and test_rejecting_propagating_link_invalidates_dependent_results"
+    },
+    {
+      "issue": "BV shift needs compatible ghost grading and Grassmann parity",
+      "fix": "Restrict ordinary DGLA bridge to declared bosonic bank, record additional grading needed for physical fermions",
+      "evidence": "research/audits/scientific_review.md"
+    },
+    {
+      "issue": "Reviewed-audit importer initially assumed list metadata and Path JSON support",
+      "fix": "Use actual artifact mapping and serialize paths as strings; repeated execution succeeds without reclassifying false controls",
+      "resolution": "memory/claims.json"
+    }
+  ],
+  "limits": "Historical failed integration runs are retained. Their initial metadata-parser failures do not refute the mathematical model."
+}

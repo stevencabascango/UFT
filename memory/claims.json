@@ -1,0 +1,1278 @@
+{
+  "audits": [
+    {
+      "claim_id": "UFT-GO-001",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/googly_problem/proposal.md": "17c17b54c3aed20f94ab0f9b3f7f431010e2a20307fdf87d52e51924e6f2cf66"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/googly_problem/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Exactness of the order-epsilon*eta cocycle is necessary and sufficient at this truncated order; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:10.913401+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-GO-001",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-GO-002",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/googly_problem/proposal.md": "17c17b54c3aed20f94ab0f9b3f7f431010e2a20307fdf87d52e51924e6f2cf66"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/googly_problem/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Explicit finite extension and obstruction examples; no physical twistor reconstruction; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:10.951720+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-GO-002",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-QG-001",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/quantum_gravity/proposal.md": "b36753b4f99b0de236f99cff1c5c13dd2ba9d0e73976f2227f3aa8701ceb4957"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/quantum_gravity/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Dimension and basis of the finite Gauss subspace only; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:10.789097+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-QG-001",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-QG-002",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/quantum_gravity/proposal.md": "b36753b4f99b0de236f99cff1c5c13dd2ba9d0e73976f2227f3aa8701ceb4957"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/quantum_gravity/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Finite operator q, its preservation of Gauss, spectrum and hermiticity; not a gravitational Hamiltonian; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:10.830699+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-QG-002",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-QG-003",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/quantum_gravity/proposal.md": "b36753b4f99b0de236f99cff1c5c13dd2ba9d0e73976f2227f3aa8701ceb4957"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/quantum_gravity/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Existence, uniqueness and unitary evolution of generalized ideal-clock solutions; no global-clock theorem in GR; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:10.866783+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-QG-003",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-UF-001",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md": "a2a1d1541dcead5d0716031a0389edbc193160c1a24b4f3fd51a46f563c990f0"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Second-order local BV obstruction criterion; no all-order or quantum consistency theorem; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:10.992680+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-UF-001",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-UF-002",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md": "a2a1d1541dcead5d0716031a0389edbc193160c1a24b4f3fd51a46f563c990f0"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Metric-compatible skew bracket has J(e1,e2,e3)=-e4 and is not Lie; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:11.027921+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-UF-002",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-UF-003",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md": "a2a1d1541dcead5d0716031a0389edbc193160c1a24b4f3fd51a46f563c990f0"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Compact su(2) control satisfies Jacobi; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:11.053140+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-UF-003",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    },
+    {
+      "claim_id": "UFT-X-001",
+      "data": {
+        "artifact_hashes": {
+          "/home/asus/UFT/evidence/scientific-review.json": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e",
+          "/home/asus/UFT/research/audits/mathematical_review.md": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+          "/home/asus/UFT/research/calculations/first_cycle.json": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md": "a2a1d1541dcead5d0716031a0389edbc193160c1a24b4f3fd51a46f563c990f0"
+        },
+        "artifacts": [
+          "/home/asus/UFT/evidence/scientific-review.json",
+          "/home/asus/UFT/research/audits/mathematical_review.md",
+          "/home/asus/UFT/research/unified_field_theory/proposal.md",
+          "/home/asus/UFT/research/calculations/first_cycle.json"
+        ],
+        "checks": {
+          "conventions": true,
+          "dependencies": true,
+          "hypotheses": true,
+          "limits": true,
+          "logic": true,
+          "physical_scope": true,
+          "statement": true,
+          "tool_scope": true
+        },
+        "limitations": "Degree-shift correspondence of the abstract BV and DGLA obstruction descriptions; not an identification with the finite Googly toy or a physical equivalence; shared-model systematic errors remain possible; not formal or external peer review",
+        "recorded": "2026-11-07T01:01:11.091652+00:00",
+        "separation": "Distinct execution IDs; independence of model errors is not guaranteed"
+      },
+      "id": "UFT-AUD-SCI-001-UFT-X-001",
+      "producer_execution": "uft-physics-drafting-20261106",
+      "reviewer_execution": "uft_final_review-20261106",
+      "revision": 1,
+      "scope": "internal",
+      "verdict": "confirmed"
+    }
+  ],
+  "claims": [
+    {
+      "artifacts": [
+        "research/googly_problem/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-GO-001",
+      "dependencies": [],
+      "hypotheses": [
+        "DGLA, d²=0, Jacobi graduada, Leibniz",
+        "Grado cohomológico y parámetros de grado0",
+        "Se retiene eh pero no e² ni h²",
+        "Cohomological DGLA over characteristic zero",
+        "Closed degree-one directions",
+        "Degree-zero commuting parameters with epsilon^2=eta^2=0",
+        "Mixed coefficient retained"
+      ],
+      "id": "UFT-GO-001",
+      "revision": 1,
+      "scope": "Exactness of the order-epsilon*eta cocycle is necessary and sufficient at this truncated order",
+      "sources": [],
+      "statement": "En una DGLA de característica0, a± cerrados de grado1 se extienden a MC sobre K[e,h]/(e²,h²) iff la clase [[a+,a-]] en H² es cero.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/googly_problem/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-GO-002",
+      "dependencies": [
+        "UFT-GO-001"
+      ],
+      "hypotheses": [
+        "L1=span(x,y,z), L2=span(w), otros grados0",
+        "Corchete simétrico entre x,y de grado1",
+        "No hay identificación con helicidades físicas",
+        "Finite DGLAs exactly as declared",
+        "Central degree-two w",
+        "[x,y]=[y,x]=w",
+        "Primitive model dz=w, blocked model d=0"
+      ],
+      "id": "UFT-GO-002",
+      "revision": 1,
+      "scope": "Explicit finite extension and obstruction examples; no physical twistor reconstruction",
+      "sources": [],
+      "statement": "Los ejemplos [x,y]=w, w central dan extensión mixta con b=-z si dz=w y obstrucción no nula si d=0.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/googly_problem/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "dependencies": [
+        "UFT-GO-002"
+      ],
+      "hypotheses": [
+        "Anillo dual doble",
+        "[x,y]=w no nulo, [x,x]=[y,y]=0",
+        "Separate MC solutions are claimed to guarantee simultaneous extension"
+      ],
+      "id": "UFT-GO-003",
+      "revision": 1,
+      "scope": "Universal assertion refuted by the blocked mixed coefficient w",
+      "sources": [],
+      "statement": "Afirmación refutada: resolver por separado dos direcciones MC garantiza su combinación; el ejemplo d=0 tiene residuo eh*w no nulo.",
+      "status": "refuted",
+      "status_label": "REFUTADO"
+    },
+    {
+      "artifacts": [
+        "research/quantum_gravity/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-QG-001",
+      "dependencies": [],
+      "hypotheses": [
+        "Cuatro representaciones spin1/2",
+        "Producto interno tensorial estándar",
+        "Orden y fases de research/quantum_gravity/proposal.md E",
+        "Four spin-1/2 representations",
+        "Diagonal SU(2) action",
+        "Tensor product positive inner product and declared basis"
+      ],
+      "id": "UFT-QG-001",
+      "revision": 1,
+      "scope": "Dimension and basis of the finite Gauss subspace only",
+      "sources": [],
+      "statement": "El subespacio Inv_SU(2)((C²)^tensor4) tiene dimensión2 y la base b0,b1 documentada es ortonormal y satisface Gauss.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/quantum_gravity/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-QG-002",
+      "dependencies": [
+        "UFT-QG-001"
+      ],
+      "hypotheses": [
+        "J=Pauli/2 adimensional",
+        "epsilon_xyz=+1",
+        "Orientación fija; patas distintas conmutan",
+        "J=Pauli/2",
+        "Fixed tensor order and basis phases",
+        "Gram diag(1,3) in rational basis"
+      ],
+      "id": "UFT-QG-002",
+      "revision": 1,
+      "scope": "Finite operator q, its preservation of Gauss, spectrum and hermiticity; not a gravitational Hamiltonian",
+      "sources": [],
+      "statement": "q=epsilon_abc J1aJ2bJ3c preserva Gauss y en la base ortonormal documentada es sqrt(3)/4 sigma_y, q²=3I/16.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/quantum_gravity/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-QG-003",
+      "dependencies": [
+        "UFT-QG-002"
+      ],
+      "hypotheses": [
+        "Reloj ideal T en R",
+        "pT=-i hbar d/dT autoadjunto en H1(R)",
+        "H autoadjunto finito, constante en T",
+        "Producto físico definido por evaluación",
+        "H finite dimensional self-adjoint and constant in T",
+        "Ideal T on R, hbar>0",
+        "C=pT+H with H1 kinematic domain",
+        "Physical inner product chosen by evaluation on generalized solutions"
+      ],
+      "id": "UFT-QG-003",
+      "revision": 1,
+      "scope": "Existence, uniqueness and unitary evolution of generalized ideal-clock solutions; no global-clock theorem in GR",
+      "sources": [],
+      "statement": "Para Hamiltoniano finito autoadjunto, C=pT+H tiene soluciones generalizadas U(T,T0)psi0; evaluación define producto físico positivo independiente de T0; no son L2(dT).",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/quantum_gravity/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "dependencies": [],
+      "hypotheses": [
+        "kappa real no cero",
+        "Mismo reloj ideal y producto de evaluación",
+        "Finite matrix alone, without self-adjointness, is claimed sufficient for norm preservation"
+      ],
+      "id": "UFT-QG-004",
+      "revision": 1,
+      "scope": "Universal assertion refuted by i*kappa*I and independent nilpotent matrix",
+      "sources": [],
+      "statement": "Afirmación refutada: toda matriz Hamiltoniana finita conserva norma relacional. K=i*kappa*I produce norma²=e^(2*kappa*deltaT/hbar).",
+      "status": "refuted",
+      "status_label": "REFUTADO"
+    },
+    {
+      "artifacts": [
+        "research/unified_field_theory/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-UF-001",
+      "dependencies": [],
+      "hypotheses": [
+        "Antibracket BV y s=(S0,.)",
+        "Funcionales locales integrados modulo derivadas totales",
+        "Variaciones compactamente soportadas",
+        "Expansión formal sin inferir convergencia",
+        "Classical master equation for S0",
+        "BRST-closed first-order deformation",
+        "Declared local functionals modulo total derivatives",
+        "Consistent ghost/parity grading"
+      ],
+      "id": "UFT-UF-001",
+      "revision": 1,
+      "scope": "Second-order local BV obstruction criterion; no all-order or quantum consistency theorem",
+      "sources": [],
+      "statement": "Para funcionales locales BV, (S0,S0)=0 y sS1=0, existe S2 local de segundo orden iff [(S1,S1)/2] es cero en H1 local(s).",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/unified_field_theory/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-UF-002",
+      "dependencies": [],
+      "hypotheses": [
+        "R5 real, delta positiva",
+        "Componentes f extendidas por antisimetría y resto0",
+        "Real five-dimensional vector space with Euclidean delta",
+        "Fully antisymmetric f012=f034=1",
+        "Declared Jacobi convention"
+      ],
+      "id": "UFT-UF-002",
+      "revision": 1,
+      "scope": "Metric-compatible skew bracket has J(e1,e2,e3)=-e4 and is not Lie",
+      "sources": [],
+      "statement": "En R5 con delta y f012=f034=1 totalmente antisimétrico, la métrica es invariante pero Jacobi(e1,e2,e3)=-e4, índices desde0.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/unified_field_theory/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-UF-003",
+      "dependencies": [],
+      "hypotheses": [
+        "Base real y producto interno delta",
+        "Los únicos componentes independientes son f012=1",
+        "Real three-dimensional vector space",
+        "Fully antisymmetric f012=1"
+      ],
+      "id": "UFT-UF-003",
+      "revision": 1,
+      "scope": "Compact su(2) control satisfies Jacobi",
+      "sources": [],
+      "statement": "En R3 con f012=1 totalmente antisimétrico se cumple Jacobi: control su(2) en normalización real.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    },
+    {
+      "artifacts": [
+        "research/unified_field_theory/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "dependencies": [
+        "UFT-UF-002"
+      ],
+      "hypotheses": [
+        "Ansatz gauge de Lie del banco",
+        "No pretende refutar L_infinity ni todas las ampliaciones",
+        "Total antisymmetry is claimed sufficient for an ordinary Lie gauge extension"
+      ],
+      "id": "UFT-UF-004",
+      "revision": 1,
+      "scope": "Universal assertion refuted; no no-go for all higher or open gauge structures",
+      "sources": [],
+      "statement": "Afirmación refutada: toda forma cúbica totalmente antisimétrica prolonga automáticamente un álgebra gauge de Lie.",
+      "status": "refuted",
+      "status_label": "REFUTADO"
+    },
+    {
+      "artifacts": [
+        "research/unified_field_theory/proposal.md",
+        "research/calculations/first_cycle.json"
+      ],
+      "audit_id": "UFT-AUD-SCI-001-UFT-X-001",
+      "dependencies": [
+        "UFT-GO-001",
+        "UFT-UF-001"
+      ],
+      "hypotheses": [
+        "Funcionales locales BV bien definidos",
+        "(S0,S0)=0",
+        "Dos vértices locales de gh0 cerrados",
+        "Mismas condiciones de contorno; característica0",
+        "No se identifica el juguete finito con un complejo twistorial físico",
+        "Banco bosónico: paridad Grassmann igual a número fantasma modulo2; con fermiones se requiere supergraduación adicional",
+        "Grassmann parity equals ghost number modulo two in the bosonic bank",
+        "L^n=F^(gh=n-1)",
+        "Local category and boundary hypotheses preserved",
+        "Differential s=(S0,.) and BV bracket satisfy stated identities"
+      ],
+      "id": "UFT-X-001",
+      "revision": 1,
+      "scope": "Degree-shift correspondence of the abstract BV and DGLA obstruction descriptions; not an identification with the finite Googly toy or a physical equivalence",
+      "sources": [],
+      "statement": "Para el banco bosónico con paridad Grassmann=gh modulo2, el complejo BV local desplazado L^n=F^(gh=n-1), d=(S0,.), corchete=antibracket es la estructura DGLA a la que se aplica el criterio mixto; H²(L)=H1_BV. No es equivalencia física entre metas.",
+      "status": "proven",
+      "status_label": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS"
+    }
+  ],
+  "executions": [
+    {
+      "backend": "OpenAI Codex subagent",
+      "id": "uft-physics-drafting-20261106",
+      "record_path": "/home/asus/UFT/collaboration/codex/producer-execution.json",
+      "role": "physics",
+      "sha256": "06d88f7442619d72912015baded9f5d655a6bd14f72035408f18135696a2d463"
+    },
+    {
+      "backend": "OpenAI Codex subagent with local deterministic checks",
+      "id": "uft_final_review-20261106",
+      "record_path": "/home/asus/UFT/evidence/scientific-review.json",
+      "role": "audit",
+      "sha256": "48f19949c924049f5e068f7116075a9420e8db5978502afb793d1fa2611c532e"
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "UFT-QG-001",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "Cuatro representaciones spin1/2",
+          "Producto interno tensorial estándar",
+          "Orden y fases de research/quantum_gravity/proposal.md E",
+          "Four spin-1/2 representations",
+          "Diagonal SU(2) action",
+          "Tensor product positive inner product and declared basis"
+        ],
+        "id": "UFT-QG-001",
+        "revision": 1,
+        "scope": "Dimension and basis of the finite Gauss subspace only",
+        "sources": [],
+        "statement": "El subespacio Inv_SU(2)((C²)^tensor4) tiene dimensión2 y la base b0,b1 documentada es ortonormal y satisface Gauss.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:03.060022+00:00",
+      "revision": 1,
+      "sequence": 1
+    },
+    {
+      "claim_id": "UFT-QG-001",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-QG-001",
+        "dependencies": [],
+        "hypotheses": [
+          "Cuatro representaciones spin1/2",
+          "Producto interno tensorial estándar",
+          "Orden y fases de research/quantum_gravity/proposal.md E",
+          "Four spin-1/2 representations",
+          "Diagonal SU(2) action",
+          "Tensor product positive inner product and declared basis"
+        ],
+        "id": "UFT-QG-001",
+        "revision": 1,
+        "scope": "Dimension and basis of the finite Gauss subspace only",
+        "sources": [],
+        "statement": "El subespacio Inv_SU(2)((C²)^tensor4) tiene dimensión2 y la base b0,b1 documentada es ortonormal y satisface Gauss.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:10.806658+00:00",
+      "revision": 1,
+      "sequence": 2
+    },
+    {
+      "claim_id": "UFT-QG-002",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [
+          "UFT-QG-001"
+        ],
+        "hypotheses": [
+          "J=Pauli/2 adimensional",
+          "epsilon_xyz=+1",
+          "Orientación fija; patas distintas conmutan",
+          "J=Pauli/2",
+          "Fixed tensor order and basis phases",
+          "Gram diag(1,3) in rational basis"
+        ],
+        "id": "UFT-QG-002",
+        "revision": 1,
+        "scope": "Finite operator q, its preservation of Gauss, spectrum and hermiticity; not a gravitational Hamiltonian",
+        "sources": [],
+        "statement": "q=epsilon_abc J1aJ2bJ3c preserva Gauss y en la base ortonormal documentada es sqrt(3)/4 sigma_y, q²=3I/16.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.823282+00:00",
+      "revision": 1,
+      "sequence": 3
+    },
+    {
+      "claim_id": "UFT-QG-002",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-QG-002",
+        "dependencies": [
+          "UFT-QG-001"
+        ],
+        "hypotheses": [
+          "J=Pauli/2 adimensional",
+          "epsilon_xyz=+1",
+          "Orientación fija; patas distintas conmutan",
+          "J=Pauli/2",
+          "Fixed tensor order and basis phases",
+          "Gram diag(1,3) in rational basis"
+        ],
+        "id": "UFT-QG-002",
+        "revision": 1,
+        "scope": "Finite operator q, its preservation of Gauss, spectrum and hermiticity; not a gravitational Hamiltonian",
+        "sources": [],
+        "statement": "q=epsilon_abc J1aJ2bJ3c preserva Gauss y en la base ortonormal documentada es sqrt(3)/4 sigma_y, q²=3I/16.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:10.837831+00:00",
+      "revision": 1,
+      "sequence": 4
+    },
+    {
+      "claim_id": "UFT-QG-003",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [
+          "UFT-QG-002"
+        ],
+        "hypotheses": [
+          "Reloj ideal T en R",
+          "pT=-i hbar d/dT autoadjunto en H1(R)",
+          "H autoadjunto finito, constante en T",
+          "Producto físico definido por evaluación",
+          "H finite dimensional self-adjoint and constant in T",
+          "Ideal T on R, hbar>0",
+          "C=pT+H with H1 kinematic domain",
+          "Physical inner product chosen by evaluation on generalized solutions"
+        ],
+        "id": "UFT-QG-003",
+        "revision": 1,
+        "scope": "Existence, uniqueness and unitary evolution of generalized ideal-clock solutions; no global-clock theorem in GR",
+        "sources": [],
+        "statement": "Para Hamiltoniano finito autoadjunto, C=pT+H tiene soluciones generalizadas U(T,T0)psi0; evaluación define producto físico positivo independiente de T0; no son L2(dT).",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.855756+00:00",
+      "revision": 1,
+      "sequence": 5
+    },
+    {
+      "claim_id": "UFT-QG-003",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-QG-003",
+        "dependencies": [
+          "UFT-QG-002"
+        ],
+        "hypotheses": [
+          "Reloj ideal T en R",
+          "pT=-i hbar d/dT autoadjunto en H1(R)",
+          "H autoadjunto finito, constante en T",
+          "Producto físico definido por evaluación",
+          "H finite dimensional self-adjoint and constant in T",
+          "Ideal T on R, hbar>0",
+          "C=pT+H with H1 kinematic domain",
+          "Physical inner product chosen by evaluation on generalized solutions"
+        ],
+        "id": "UFT-QG-003",
+        "revision": 1,
+        "scope": "Existence, uniqueness and unitary evolution of generalized ideal-clock solutions; no global-clock theorem in GR",
+        "sources": [],
+        "statement": "Para Hamiltoniano finito autoadjunto, C=pT+H tiene soluciones generalizadas U(T,T0)psi0; evaluación define producto físico positivo independiente de T0; no son L2(dT).",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:10.876740+00:00",
+      "revision": 1,
+      "sequence": 6
+    },
+    {
+      "claim_id": "UFT-QG-004",
+      "data": {
+        "artifacts": [
+          "research/quantum_gravity/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "kappa real no cero",
+          "Mismo reloj ideal y producto de evaluación",
+          "Finite matrix alone, without self-adjointness, is claimed sufficient for norm preservation"
+        ],
+        "id": "UFT-QG-004",
+        "revision": 1,
+        "scope": "Universal assertion refuted by i*kappa*I and independent nilpotent matrix",
+        "sources": [],
+        "statement": "Afirmación refutada: toda matriz Hamiltoniana finita conserva norma relacional. K=i*kappa*I produce norma²=e^(2*kappa*deltaT/hbar).",
+        "status": "refuted"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.895976+00:00",
+      "revision": 1,
+      "sequence": 7
+    },
+    {
+      "claim_id": "UFT-GO-001",
+      "data": {
+        "artifacts": [
+          "research/googly_problem/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "DGLA, d²=0, Jacobi graduada, Leibniz",
+          "Grado cohomológico y parámetros de grado0",
+          "Se retiene eh pero no e² ni h²",
+          "Cohomological DGLA over characteristic zero",
+          "Closed degree-one directions",
+          "Degree-zero commuting parameters with epsilon^2=eta^2=0",
+          "Mixed coefficient retained"
+        ],
+        "id": "UFT-GO-001",
+        "revision": 1,
+        "scope": "Exactness of the order-epsilon*eta cocycle is necessary and sufficient at this truncated order",
+        "sources": [],
+        "statement": "En una DGLA de característica0, a± cerrados de grado1 se extienden a MC sobre K[e,h]/(e²,h²) iff la clase [[a+,a-]] en H² es cero.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.902608+00:00",
+      "revision": 1,
+      "sequence": 8
+    },
+    {
+      "claim_id": "UFT-GO-001",
+      "data": {
+        "artifacts": [
+          "research/googly_problem/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-GO-001",
+        "dependencies": [],
+        "hypotheses": [
+          "DGLA, d²=0, Jacobi graduada, Leibniz",
+          "Grado cohomológico y parámetros de grado0",
+          "Se retiene eh pero no e² ni h²",
+          "Cohomological DGLA over characteristic zero",
+          "Closed degree-one directions",
+          "Degree-zero commuting parameters with epsilon^2=eta^2=0",
+          "Mixed coefficient retained"
+        ],
+        "id": "UFT-GO-001",
+        "revision": 1,
+        "scope": "Exactness of the order-epsilon*eta cocycle is necessary and sufficient at this truncated order",
+        "sources": [],
+        "statement": "En una DGLA de característica0, a± cerrados de grado1 se extienden a MC sobre K[e,h]/(e²,h²) iff la clase [[a+,a-]] en H² es cero.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:10.921811+00:00",
+      "revision": 1,
+      "sequence": 9
+    },
+    {
+      "claim_id": "UFT-GO-002",
+      "data": {
+        "artifacts": [
+          "research/googly_problem/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [
+          "UFT-GO-001"
+        ],
+        "hypotheses": [
+          "L1=span(x,y,z), L2=span(w), otros grados0",
+          "Corchete simétrico entre x,y de grado1",
+          "No hay identificación con helicidades físicas",
+          "Finite DGLAs exactly as declared",
+          "Central degree-two w",
+          "[x,y]=[y,x]=w",
+          "Primitive model dz=w, blocked model d=0"
+        ],
+        "id": "UFT-GO-002",
+        "revision": 1,
+        "scope": "Explicit finite extension and obstruction examples; no physical twistor reconstruction",
+        "sources": [],
+        "statement": "Los ejemplos [x,y]=w, w central dan extensión mixta con b=-z si dz=w y obstrucción no nula si d=0.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.942127+00:00",
+      "revision": 1,
+      "sequence": 10
+    },
+    {
+      "claim_id": "UFT-GO-002",
+      "data": {
+        "artifacts": [
+          "research/googly_problem/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-GO-002",
+        "dependencies": [
+          "UFT-GO-001"
+        ],
+        "hypotheses": [
+          "L1=span(x,y,z), L2=span(w), otros grados0",
+          "Corchete simétrico entre x,y de grado1",
+          "No hay identificación con helicidades físicas",
+          "Finite DGLAs exactly as declared",
+          "Central degree-two w",
+          "[x,y]=[y,x]=w",
+          "Primitive model dz=w, blocked model d=0"
+        ],
+        "id": "UFT-GO-002",
+        "revision": 1,
+        "scope": "Explicit finite extension and obstruction examples; no physical twistor reconstruction",
+        "sources": [],
+        "statement": "Los ejemplos [x,y]=w, w central dan extensión mixta con b=-z si dz=w y obstrucción no nula si d=0.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:10.962340+00:00",
+      "revision": 1,
+      "sequence": 11
+    },
+    {
+      "claim_id": "UFT-GO-003",
+      "data": {
+        "artifacts": [
+          "research/googly_problem/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [
+          "UFT-GO-002"
+        ],
+        "hypotheses": [
+          "Anillo dual doble",
+          "[x,y]=w no nulo, [x,x]=[y,y]=0",
+          "Separate MC solutions are claimed to guarantee simultaneous extension"
+        ],
+        "id": "UFT-GO-003",
+        "revision": 1,
+        "scope": "Universal assertion refuted by the blocked mixed coefficient w",
+        "sources": [],
+        "statement": "Afirmación refutada: resolver por separado dos direcciones MC garantiza su combinación; el ejemplo d=0 tiene residuo eh*w no nulo.",
+        "status": "refuted"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.980645+00:00",
+      "revision": 1,
+      "sequence": 12
+    },
+    {
+      "claim_id": "UFT-UF-001",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "Antibracket BV y s=(S0,.)",
+          "Funcionales locales integrados modulo derivadas totales",
+          "Variaciones compactamente soportadas",
+          "Expansión formal sin inferir convergencia",
+          "Classical master equation for S0",
+          "BRST-closed first-order deformation",
+          "Declared local functionals modulo total derivatives",
+          "Consistent ghost/parity grading"
+        ],
+        "id": "UFT-UF-001",
+        "revision": 1,
+        "scope": "Second-order local BV obstruction criterion; no all-order or quantum consistency theorem",
+        "sources": [],
+        "statement": "Para funcionales locales BV, (S0,S0)=0 y sS1=0, existe S2 local de segundo orden iff [(S1,S1)/2] es cero en H1 local(s).",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:10.986322+00:00",
+      "revision": 1,
+      "sequence": 13
+    },
+    {
+      "claim_id": "UFT-UF-001",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-UF-001",
+        "dependencies": [],
+        "hypotheses": [
+          "Antibracket BV y s=(S0,.)",
+          "Funcionales locales integrados modulo derivadas totales",
+          "Variaciones compactamente soportadas",
+          "Expansión formal sin inferir convergencia",
+          "Classical master equation for S0",
+          "BRST-closed first-order deformation",
+          "Declared local functionals modulo total derivatives",
+          "Consistent ghost/parity grading"
+        ],
+        "id": "UFT-UF-001",
+        "revision": 1,
+        "scope": "Second-order local BV obstruction criterion; no all-order or quantum consistency theorem",
+        "sources": [],
+        "statement": "Para funcionales locales BV, (S0,S0)=0 y sS1=0, existe S2 local de segundo orden iff [(S1,S1)/2] es cero en H1 local(s).",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:10.999767+00:00",
+      "revision": 1,
+      "sequence": 14
+    },
+    {
+      "claim_id": "UFT-UF-002",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "R5 real, delta positiva",
+          "Componentes f extendidas por antisimetría y resto0",
+          "Real five-dimensional vector space with Euclidean delta",
+          "Fully antisymmetric f012=f034=1",
+          "Declared Jacobi convention"
+        ],
+        "id": "UFT-UF-002",
+        "revision": 1,
+        "scope": "Metric-compatible skew bracket has J(e1,e2,e3)=-e4 and is not Lie",
+        "sources": [],
+        "statement": "En R5 con delta y f012=f034=1 totalmente antisimétrico, la métrica es invariante pero Jacobi(e1,e2,e3)=-e4, índices desde0.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:11.020427+00:00",
+      "revision": 1,
+      "sequence": 15
+    },
+    {
+      "claim_id": "UFT-UF-002",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-UF-002",
+        "dependencies": [],
+        "hypotheses": [
+          "R5 real, delta positiva",
+          "Componentes f extendidas por antisimetría y resto0",
+          "Real five-dimensional vector space with Euclidean delta",
+          "Fully antisymmetric f012=f034=1",
+          "Declared Jacobi convention"
+        ],
+        "id": "UFT-UF-002",
+        "revision": 1,
+        "scope": "Metric-compatible skew bracket has J(e1,e2,e3)=-e4 and is not Lie",
+        "sources": [],
+        "statement": "En R5 con delta y f012=f034=1 totalmente antisimétrico, la métrica es invariante pero Jacobi(e1,e2,e3)=-e4, índices desde0.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:11.034906+00:00",
+      "revision": 1,
+      "sequence": 16
+    },
+    {
+      "claim_id": "UFT-UF-003",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [],
+        "hypotheses": [
+          "Base real y producto interno delta",
+          "Los únicos componentes independientes son f012=1",
+          "Real three-dimensional vector space",
+          "Fully antisymmetric f012=1"
+        ],
+        "id": "UFT-UF-003",
+        "revision": 1,
+        "scope": "Compact su(2) control satisfies Jacobi",
+        "sources": [],
+        "statement": "En R3 con f012=1 totalmente antisimétrico se cumple Jacobi: control su(2) en normalización real.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:11.046849+00:00",
+      "revision": 1,
+      "sequence": 17
+    },
+    {
+      "claim_id": "UFT-UF-003",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-UF-003",
+        "dependencies": [],
+        "hypotheses": [
+          "Base real y producto interno delta",
+          "Los únicos componentes independientes son f012=1",
+          "Real three-dimensional vector space",
+          "Fully antisymmetric f012=1"
+        ],
+        "id": "UFT-UF-003",
+        "revision": 1,
+        "scope": "Compact su(2) control satisfies Jacobi",
+        "sources": [],
+        "statement": "En R3 con f012=1 totalmente antisimétrico se cumple Jacobi: control su(2) en normalización real.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:11.062342+00:00",
+      "revision": 1,
+      "sequence": 18
+    },
+    {
+      "claim_id": "UFT-UF-004",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [
+          "UFT-UF-002"
+        ],
+        "hypotheses": [
+          "Ansatz gauge de Lie del banco",
+          "No pretende refutar L_infinity ni todas las ampliaciones",
+          "Total antisymmetry is claimed sufficient for an ordinary Lie gauge extension"
+        ],
+        "id": "UFT-UF-004",
+        "revision": 1,
+        "scope": "Universal assertion refuted; no no-go for all higher or open gauge structures",
+        "sources": [],
+        "statement": "Afirmación refutada: toda forma cúbica totalmente antisimétrica prolonga automáticamente un álgebra gauge de Lie.",
+        "status": "refuted"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:11.076994+00:00",
+      "revision": 1,
+      "sequence": 19
+    },
+    {
+      "claim_id": "UFT-X-001",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "dependencies": [
+          "UFT-GO-001",
+          "UFT-UF-001"
+        ],
+        "hypotheses": [
+          "Funcionales locales BV bien definidos",
+          "(S0,S0)=0",
+          "Dos vértices locales de gh0 cerrados",
+          "Mismas condiciones de contorno; característica0",
+          "No se identifica el juguete finito con un complejo twistorial físico",
+          "Banco bosónico: paridad Grassmann igual a número fantasma modulo2; con fermiones se requiere supergraduación adicional",
+          "Grassmann parity equals ghost number modulo two in the bosonic bank",
+          "L^n=F^(gh=n-1)",
+          "Local category and boundary hypotheses preserved",
+          "Differential s=(S0,.) and BV bracket satisfy stated identities"
+        ],
+        "id": "UFT-X-001",
+        "revision": 1,
+        "scope": "Degree-shift correspondence of the abstract BV and DGLA obstruction descriptions; not an identification with the finite Googly toy or a physical equivalence",
+        "sources": [],
+        "statement": "Para el banco bosónico con paridad Grassmann=gh modulo2, el complejo BV local desplazado L^n=F^(gh=n-1), d=(S0,.), corchete=antibracket es la estructura DGLA a la que se aplica el criterio mixto; H²(L)=H1_BV. No es equivalencia física entre metas.",
+        "status": "pending_audit"
+      },
+      "event": "created",
+      "recorded": "2026-11-07T01:01:11.085319+00:00",
+      "revision": 1,
+      "sequence": 20
+    },
+    {
+      "claim_id": "UFT-X-001",
+      "data": {
+        "artifacts": [
+          "research/unified_field_theory/proposal.md",
+          "research/calculations/first_cycle.json"
+        ],
+        "audit_id": "UFT-AUD-SCI-001-UFT-X-001",
+        "dependencies": [
+          "UFT-GO-001",
+          "UFT-UF-001"
+        ],
+        "hypotheses": [
+          "Funcionales locales BV bien definidos",
+          "(S0,S0)=0",
+          "Dos vértices locales de gh0 cerrados",
+          "Mismas condiciones de contorno; característica0",
+          "No se identifica el juguete finito con un complejo twistorial físico",
+          "Banco bosónico: paridad Grassmann igual a número fantasma modulo2; con fermiones se requiere supergraduación adicional",
+          "Grassmann parity equals ghost number modulo two in the bosonic bank",
+          "L^n=F^(gh=n-1)",
+          "Local category and boundary hypotheses preserved",
+          "Differential s=(S0,.) and BV bracket satisfy stated identities"
+        ],
+        "id": "UFT-X-001",
+        "revision": 1,
+        "scope": "Degree-shift correspondence of the abstract BV and DGLA obstruction descriptions; not an identification with the finite Googly toy or a physical equivalence",
+        "sources": [],
+        "statement": "Para el banco bosónico con paridad Grassmann=gh modulo2, el complejo BV local desplazado L^n=F^(gh=n-1), d=(S0,.), corchete=antibracket es la estructura DGLA a la que se aplica el criterio mixto; H²(L)=H1_BV. No es equivalencia física entre metas.",
+        "status": "proven",
+        "status_label": "DERIVACIÓN PENDIENTE DE AUDITORÍA"
+      },
+      "event": "promoted",
+      "recorded": "2026-11-07T01:01:11.098640+00:00",
+      "revision": 1,
+      "sequence": 21
+    }
+  ],
+  "limits": "Audit records are attestations with linked evidence, not automatic proof checking.",
+  "schema_version": "1.0",
+  "states": {
+    "conjecture": "CONJETURA",
+    "established": "RESULTADO ESTABLECIDO",
+    "evidence": "EVIDENCIA SIMBÓLICA O NUMÉRICA",
+    "formal": "VERIFICADO FORMALMENTE",
+    "pending_audit": "DERIVACIÓN PENDIENTE DE AUDITORÍA",
+    "proposal": "PROPUESTA",
+    "proven": "DEMOSTRADO BAJO HIPÓTESIS EXPLÍCITAS",
+    "refuted": "REFUTADO",
+    "review": "EN REVISIÓN"
+  }
+}

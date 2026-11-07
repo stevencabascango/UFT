@@ -1,0 +1,32 @@
+{
+  "execution_id": "uft-physics-drafting-20261106",
+  "execution_status": "completed",
+  "role": "physics",
+  "backend": "OpenAI Codex subagent",
+  "model": null,
+  "model_version_note": "Not exposed by runtime",
+  "tools": [
+    "local files",
+    "scipython",
+    "SymPy",
+    "web primary-source retrieval"
+  ],
+  "artifacts": [
+    "research/first_cycle.md",
+    "research/quantum_gravity/proposal.md",
+    "research/googly_problem/proposal.md",
+    "research/unified_field_theory/proposal.md",
+    "research/items.json"
+  ],
+  "completion_source": "Completed artifact report received from /root/uft_physics; this provenance record is not an additional live model execution",
+  "skills": [
+    "metacognicion-operativa",
+    "investigador-elite",
+    "colaborador-cientifico",
+    "colaborador-matematica-pura",
+    "teoria-original",
+    "scientific-writing",
+    "sympy"
+  ],
+  "scope": "Finite models and conditional research programmes, not complete physical theories"
+}

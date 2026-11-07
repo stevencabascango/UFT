@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "protocol_designed": true,
+  "manual_execution_available": true,
+  "watcher_implemented": true,
+  "watcher_tested": true,
+  "last_successful_run": {
+    "schema_version": "1.0",
+    "completed_utc": "2026-11-06T23:45:04.844344+00:00",
+    "mode": "bounded_file_events",
+    "cycles": 2,
+    "processed_sources": 28,
+    "changes": [],
+    "failures": [],
+    "quiet": true,
+    "successful": true,
+    "elapsed_seconds": 0.00933079800233827,
+    "budgets": {
+      "max_cycles": 2,
+      "max_seconds": 5.0,
+      "max_files": 64,
+      "max_bytes": 2097152
+    },
+    "model_calls": 0,
+    "scientific_promotions": 0,
+    "limitations": "No background scheduler is implied. Research and central-claim audits remain separate budgeted executions."
+  },
+  "scheduler_templates_configured": true,
+  "scheduler_installed": false,
+  "scheduler_verified": false,
+  "mode": "manual_and_bounded_file_events",
+  "host_checks": {
+    "systemctl_user": "Failed to connect to user scope bus: Operation not permitted",
+    "crontab": "Permission denied reading user crontab"
+  },
+  "paid_model_calls": 0,
+  "canonical_brain_writes": 0
+}

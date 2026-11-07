@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "execution_kind": "deterministic_local_calculation",
+  "llm_execution": false,
+  "python_version": "3.14.4",
+  "quantum_gravity": {
+    "status": "EVIDENCIA SIMBÓLICA O NUMÉRICA",
+    "scope": "single SU(2) four-valent intertwiner; imposed ideal clock; toy Hamiltonian",
+    "arithmetic": "exact Gaussian rationals Q[i]",
+    "tensor_space_dimension": 16,
+    "invariant_dimension": 2,
+    "dimension_argument": "(1/2 tensor 1/2)=(0 directsum 1); singlet in0x0 and1x1 only",
+    "basis_u0": [
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "1/2",
+        "imag": "0"
+      },
+      {
+        "real": "-1/2",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "-1/2",
+        "imag": "0"
+      },
+      {
+        "real": "1/2",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      }
+    ],
+    "basis_u1": [
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "1",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "-1/2",
+        "imag": "0"
+      },
+      {
+        "real": "-1/2",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "-1/2",
+        "imag": "0"
+      },
+      {
+        "real": "-1/2",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "1",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      },
+      {
+        "real": "0",
+        "imag": "0"
+      }
+    ],
+    "gram": [
+      [
+        {
+          "real": "1",
+          "imag": "0"
+        },
+        {
+          "real": "0",
+          "imag": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "imag": "0"
+        },
+        {
+          "real": "3",
+          "imag": "0"
+        }
+      ]
+    ],
+    "q_restricted_nonorthonormal": [
+      [
+        {
+          "real": "0",
+          "imag": "0"
+        },
+        {
+          "real": "0",
+          "imag": "-3/4"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "imag": "1/4"
+        },
+        {
+          "real": "0",
+          "imag": "0"
+        }
+      ]
+    ],
+    "q_squared": [
+      [
+        {
+          "real": "3/16",
+          "imag": "0"
+        },
+        {
+          "real": "0",
+          "imag": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "imag": "0"
+        },
+        {
+          "real": "3/16",
+          "imag": "0"
+        }
+      ]
+    ],
+    "q_full_hermitian": true,
+    "gauss_annihilates_basis": true,
+    "q_preserves_invariant_subspace": true,
+    "weighted_hermiticity": true,
+    "q_squared_equals_3_over_16_identity": true,
+    "quarter_period_norm_squared": "1",
+    "nonhermitian_counterexample": {
+      "claim": "any finite Hamiltonian preserves relational norm",
+      "status": "REFUTADO",
+      "K": "i*kappa*I",
+      "norm_squared": "exp(2*kappa*(T-T0)/hbar)",
+      "derivative_dimensionless_time_at_zero": "2"
+    },
+    "clock_turning_point": {
+      "constraint": "p_T**2/(2M)+M*omega**2*T**2/2+H-E",
+      "poisson_T_C": "p_T/M",
+      "global_clock": false
+    },
+    "physical_claims_not_established": [
+      "Einstein dynamics",
+      "continuum limit",
+      "UV completion",
+      "discrete time",
+      "observational prediction"
+    ]
+  },
+  "googly": {
+    "status": "EVIDENCIA SIMBÓLICA O NUMÉRICA",
+    "cohomological_degrees": {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "w": 2
+    },
+    "brackets": {
+      "[x,y]": "w",
+      "[y,x]": "w",
+      "others": "0"
+    },
+    "coefficient_ring": "Q[e,h]/(e^2,h^2)",
+    "cases": [
+      {
+        "dz_coefficient": "1",
+        "b_z": "-1",
+        "mixed_mc_residual": "0",
+        "H2_dimension": 0,
+        "mixed_extension_exists": true
+      },
+      {
+        "dz_coefficient": "0",
+        "b_z": "0",
+        "mixed_mc_residual": "1",
+        "H2_dimension": 1,
+        "mixed_extension_exists": false
+      }
+    ],
+    "scope": "two finite DGLAs, no twistor-to-Einstein reconstruction supplied",
+    "false_claim": "separate solvability always implies mixed solvability",
+    "false_claim_status": "REFUTADO"
+  },
+  "unification": {
+    "status": "EVIDENCIA SIMBÓLICA O NUMÉRICA",
+    "scope": "algebraic prerequisite for a local Yang-Mills deformation; not unification",
+    "good": {
+      "algebra": "su(2), real compact form in chosen normalization",
+      "dimension": 3,
+      "Jacobi_holds": true,
+      "nonzero_Jacobi_residual_count": 0
+    },
+    "bad": {
+      "dimension": 5,
+      "nonzero_3form_components": {
+        "f012": 1,
+        "f034": 1
+      },
+      "delta_invariant": true,
+      "Jacobi_holds": false,
+      "nonzero_Jacobi_residual_count": 24,
+      "witness": {
+        "inputs_zero_based": [
+          1,
+          2,
+          3
+        ],
+        "residual": [
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      }
+    },
+    "false_claim": "a totally antisymmetric cubic coupling always extends to a Lie gauge algebra",
+    "false_claim_status": "REFUTADO"
+  },
+  "sympy_crosscheck": {
+    "version": "1.14.0",
+    "q_squared": "Matrix([[3/16, 0], [0, 3/16]])",
+    "weighted_unitarity_all_real_theta": true,
+    "scope": "CAS identity for a finite2x2 matrix; no proof assistant execution"
+  }
+}

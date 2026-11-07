@@ -1,0 +1,109 @@
+dimension,entity_id,entity_revision,evidence,item,justification,status
+documentary,GOAL-GOOGLY,1,[],Alternativas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-GOOGLY,1,"[""data/source_inventory.json"", ""data/goals.json""]",Antecedentes,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-GOOGLY,1,[],Contraejemplos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-GOOGLY,1,[],Dependencias no verificadas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-GOOGLY,1,[],Evidencias disponibles,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-GOOGLY,1,[],Objeciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-GOOGLY,1,"[""data/source_inventory.json"", ""data/goals.json""]",Preguntas pendientes,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-GOOGLY,1,"[""data/source_inventory.json"", ""data/goals.json""]",Resultados establecidos,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-GOOGLY,1,[],Supuestos nuevos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Axiomas e hipótesis,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Definiciones y objetos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Dependencias,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Ecuaciones y relaciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],"Espacios, categorías y estructuras",Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Existencia y unicidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Integrabilidad y obstrucciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Local y global,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Regularidad y contorno,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-GOOGLY,1,[],Simetrías e invariantes,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-GOOGLY,1,[],Comprobaciones pendientes,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-GOOGLY,1,[],Especialistas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-GOOGLY,1,[],Herramientas y datos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-GOOGLY,1,[],Parada y continuación,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-GOOGLY,1,[],Tiempo y cálculo,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Causalidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Condiciones de realidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Conservación y estabilidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Cuantización y aproximaciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Dimensiones y unidades,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Dinámica,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Estados y observables,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Grados de libertad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Predicciones y datos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Régimen de validez,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Simetrías y restricciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-GOOGLY,1,[],Variables físicas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-QG,1,[],Alternativas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-QG,1,"[""data/source_inventory.json"", ""data/goals.json""]",Antecedentes,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-QG,1,[],Contraejemplos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-QG,1,[],Dependencias no verificadas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-QG,1,[],Evidencias disponibles,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-QG,1,[],Objeciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-QG,1,"[""data/source_inventory.json"", ""data/goals.json""]",Preguntas pendientes,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-QG,1,"[""data/source_inventory.json"", ""data/goals.json""]",Resultados establecidos,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-QG,1,[],Supuestos nuevos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Axiomas e hipótesis,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Definiciones y objetos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Dependencias,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Ecuaciones y relaciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],"Espacios, categorías y estructuras",Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Existencia y unicidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Integrabilidad y obstrucciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Local y global,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Regularidad y contorno,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-QG,1,[],Simetrías e invariantes,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-QG,1,[],Comprobaciones pendientes,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-QG,1,[],Especialistas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-QG,1,[],Herramientas y datos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-QG,1,[],Parada y continuación,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-QG,1,[],Tiempo y cálculo,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Causalidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Condiciones de realidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Conservación y estabilidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Cuantización y aproximaciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Dimensiones y unidades,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Dinámica,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Estados y observables,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Grados de libertad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Predicciones y datos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Régimen de validez,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Simetrías y restricciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-QG,1,[],Variables físicas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-UFT,1,[],Alternativas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-UFT,1,"[""data/source_inventory.json"", ""data/goals.json""]",Antecedentes,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-UFT,1,[],Contraejemplos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-UFT,1,[],Dependencias no verificadas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-UFT,1,[],Evidencias disponibles,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-UFT,1,[],Objeciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+documentary,GOAL-UFT,1,"[""data/source_inventory.json"", ""data/goals.json""]",Preguntas pendientes,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-UFT,1,"[""data/source_inventory.json"", ""data/goals.json""]",Resultados establecidos,Manifestos y hojas de ruta localizados; se conservan sus etiquetas sin volver a auditar cada resultado.,Parcialmente revisado
+documentary,GOAL-UFT,1,[],Supuestos nuevos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Axiomas e hipótesis,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Definiciones y objetos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Dependencias,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Ecuaciones y relaciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],"Espacios, categorías y estructuras",Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Existencia y unicidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Integrabilidad y obstrucciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Local y global,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Regularidad y contorno,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+mathematical,GOAL-UFT,1,[],Simetrías e invariantes,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-UFT,1,[],Comprobaciones pendientes,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-UFT,1,[],Especialistas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-UFT,1,[],Herramientas y datos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-UFT,1,[],Parada y continuación,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+operational,GOAL-UFT,1,[],Tiempo y cálculo,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Causalidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Condiciones de realidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Conservación y estabilidad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Cuantización y aproximaciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Dimensiones y unidades,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Dinámica,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Estados y observables,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Grados de libertad,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Predicciones y datos,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Régimen de validez,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Simetrías y restricciones,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente
+physical,GOAL-UFT,1,[],Variables físicas,Fuera de lo verificado por la instantánea inicial; requiere investigación delimitada.,Pendiente

@@ -1,0 +1,231 @@
+{
+  "backend": "reference",
+  "budget": {
+    "concurrency": 2,
+    "max_calls": 14,
+    "max_input_bytes": 120000,
+    "max_output_bytes": 200000,
+    "max_seconds": 120,
+    "max_usd": null,
+    "retries": 1,
+    "task_seconds": 25
+  },
+  "calls_started": 7,
+  "created": "2026-11-07T01:06:50.358434+00:00",
+  "max_concurrency_observed": 2,
+  "plan_sha256": "bc4511d76936ab6d2eeb5256087a55d70928f57ffa3408862f1f6d6dcaee3314",
+  "schema_version": "1.0",
+  "seconds_consumed": 1.3676169859973015,
+  "tasks": {
+    "task-001": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-001/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-001/attempt-1",
+          "finished": "2026-11-07T01:06:50.451763+00:00",
+          "number": 1,
+          "output_bytes": 1343,
+          "output_limit_exceeded": false,
+          "pid": 9,
+          "process_identity": "3409998",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.05765850000170758,
+          "started": "2026-11-07T01:06:50.359054+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-001/attempt-1/request.json",
+      "request_sha256": "ec740e0b0e25333ef7518c224f4b5fd4da11bc29f1e3a91436e3d186a90eb84a",
+      "result_path": "executions/task-001/attempt-1/result.json",
+      "result_sha256": "1309de78caf2b8a3a7b752513120e69c3cc53b94631d8bb6a89d02c39d2f7bb4",
+      "status": "completed"
+    },
+    "task-002": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-002/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-002/attempt-1",
+          "finished": "2026-11-07T01:06:50.640466+00:00",
+          "number": 1,
+          "output_bytes": 3772,
+          "output_limit_exceeded": false,
+          "pid": 10,
+          "process_identity": "3410017",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.05693109999992885,
+          "started": "2026-11-07T01:06:50.455995+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-002/attempt-1/request.json",
+      "request_sha256": "c7fa72b926b13ce05e583007369acdbc2f2c692f341802ae320d6e3726e9c42c",
+      "result_path": "executions/task-002/attempt-1/result.json",
+      "result_sha256": "c006bef66f45fd3e5d79a512e86a7571373ae10436f2b505b07cc5a38514a0f0",
+      "status": "completed"
+    },
+    "task-003": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-003/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-003/attempt-1",
+          "finished": "2026-11-07T01:06:50.869805+00:00",
+          "number": 1,
+          "output_bytes": 1320,
+          "output_limit_exceeded": false,
+          "pid": 11,
+          "process_identity": "3410019",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.2591503980002017,
+          "started": "2026-11-07T01:06:50.579822+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-003/attempt-1/request.json",
+      "request_sha256": "0e93fce8d032a878b402ec1c4a05b6dd9b3ad21980183b3bb745046687f62167",
+      "result_path": "executions/task-003/attempt-1/result.json",
+      "result_sha256": "ea8e77c623459cdd4b84e9679869149a5197ce2d03a02eafcbdfdbcca947f97a",
+      "status": "completed"
+    },
+    "task-004": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-004/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-004/attempt-1",
+          "finished": "2026-11-07T01:06:51.002562+00:00",
+          "number": 1,
+          "output_bytes": 3772,
+          "output_limit_exceeded": false,
+          "pid": 12,
+          "process_identity": "3410045",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.12995219800359337,
+          "started": "2026-11-07T01:06:50.644659+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-004/attempt-1/request.json",
+      "request_sha256": "dfa01d1a76d724bb8374dfb31bcfbe96f413467993364a2aefa9e710b19760e5",
+      "result_path": "executions/task-004/attempt-1/result.json",
+      "result_sha256": "cd8cad7f81acd629b85ef81e7c2a48add901c0603f0c3a2718d8ef3aa95d3b6e",
+      "status": "completed"
+    },
+    "task-005": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-005/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-005/attempt-1",
+          "finished": "2026-11-07T01:06:51.165466+00:00",
+          "number": 1,
+          "output_bytes": 2061,
+          "output_limit_exceeded": false,
+          "pid": 13,
+          "process_identity": "3410070",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.05382179899606854,
+          "started": "2026-11-07T01:06:51.007610+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-005/attempt-1/request.json",
+      "request_sha256": "f69977a14e962cd9934946f38fdeb082464b6f034cbbc53b101d281f52c30fbd",
+      "result_path": "executions/task-005/attempt-1/result.json",
+      "result_sha256": "64a28fa2b332184e599243a12aee6edfb6e9cff8cc0a0da010b4b5e50ad631c4",
+      "status": "completed"
+    },
+    "task-006": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-006/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-006/attempt-1",
+          "finished": "2026-11-07T01:06:51.418450+00:00",
+          "number": 1,
+          "output_bytes": 9637,
+          "output_limit_exceeded": false,
+          "pid": 14,
+          "process_identity": "3410093",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.06885869899997488,
+          "started": "2026-11-07T01:06:51.169230+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-006/attempt-1/request.json",
+      "request_sha256": "4dbddad65a995e396d5470eab26e40ef362c1bbcff57817dc5d2086084d0aabf",
+      "result_path": "executions/task-006/attempt-1/result.json",
+      "result_sha256": "08992203b5dbce6a4f0d15657a9c200146c05ade1b7aaadf8a12bef4014df294",
+      "status": "completed"
+    },
+    "task-007": {
+      "attempts": [
+        {
+          "command": [
+            "/usr/bin/python3",
+            "-m",
+            "genius.worker",
+            "/home/asus/UFT/evidence/orchestration-benchmark/run/executions/task-007/attempt-1/request.json"
+          ],
+          "execution_id": "executions/task-007/attempt-1",
+          "finished": "2026-11-07T01:06:51.721895+00:00",
+          "number": 1,
+          "output_bytes": 1318,
+          "output_limit_exceeded": false,
+          "pid": 15,
+          "process_identity": "3410125",
+          "process_started": true,
+          "returncode": 0,
+          "seconds": 0.055216100001416635,
+          "started": "2026-11-07T01:06:51.421216+00:00",
+          "status": "completed",
+          "timed_out": false
+        }
+      ],
+      "request_path": "executions/task-007/attempt-1/request.json",
+      "request_sha256": "20152e755371417595af30b8945993debd05d77eae6e68adde63054914149af3",
+      "result_path": "executions/task-007/attempt-1/result.json",
+      "result_sha256": "bf17202b58073b5d9faabb25d7f182801a622c297bf71723d3e28ec4de747fb8",
+      "status": "completed"
+    }
+  }
+}

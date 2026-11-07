@@ -1,0 +1,374 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "UFT-AUD-SCI-001",
+  "execution_id": "uft_final_review-20261106",
+  "execution_status": "completed",
+  "role": "audit",
+  "backend": "OpenAI Codex subagent with local deterministic checks",
+  "model_version": null,
+  "model_version_note": "not exposed by runtime; not invented",
+  "completed_utc": "2026-11-07T00:52:47.834054+00:00",
+  "review_scope": "internal",
+  "review_type": "AI-assisted working review requested by repository owner; no journal or external peer review",
+  "separation": "Different producer, mathematical-audit and final-review agent executions; shared model family and training may share systematic errors. No statistical independence claimed.",
+  "overall_verdict": "CONFIRMADO CON CONDICIONES for exactly the finite and conditional claims listed below; fundamental physical goals remain open",
+  "claims": [
+    {
+      "id": "UFT-QG-001",
+      "verdict": "CONFIRMADO",
+      "hypotheses": [
+        "Four spin-1/2 representations",
+        "Diagonal SU(2) action",
+        "Tensor product positive inner product and declared basis"
+      ],
+      "scope": "Dimension and basis of the finite Gauss subspace only",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-QG-002",
+      "verdict": "CONFIRMADO CON CONDICIONES",
+      "hypotheses": [
+        "J=Pauli/2",
+        "epsilon_xyz=+1",
+        "Fixed tensor order and basis phases",
+        "Gram diag(1,3) in rational basis"
+      ],
+      "scope": "Finite operator q, its preservation of Gauss, spectrum and hermiticity; not a gravitational Hamiltonian",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-QG-003",
+      "verdict": "CONFIRMADO CON CONDICIONES",
+      "hypotheses": [
+        "H finite dimensional self-adjoint and constant in T",
+        "Ideal T on R, hbar>0",
+        "C=pT+H with H1 kinematic domain",
+        "Physical inner product chosen by evaluation on generalized solutions"
+      ],
+      "scope": "Existence, uniqueness and unitary evolution of generalized ideal-clock solutions; no global-clock theorem in GR",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-QG-004",
+      "verdict": "REFUTADO",
+      "hypotheses": [
+        "Finite matrix alone, without self-adjointness, is claimed sufficient for norm preservation"
+      ],
+      "scope": "Universal assertion refuted by i*kappa*I and independent nilpotent matrix",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-GO-001",
+      "verdict": "CONFIRMADO CON CONDICIONES",
+      "hypotheses": [
+        "Cohomological DGLA over characteristic zero",
+        "Closed degree-one directions",
+        "Degree-zero commuting parameters with epsilon^2=eta^2=0",
+        "Mixed coefficient retained"
+      ],
+      "scope": "Exactness of the order-epsilon*eta cocycle is necessary and sufficient at this truncated order",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-GO-002",
+      "verdict": "CONFIRMADO",
+      "hypotheses": [
+        "Finite DGLAs exactly as declared",
+        "Central degree-two w",
+        "[x,y]=[y,x]=w",
+        "Primitive model dz=w, blocked model d=0"
+      ],
+      "scope": "Explicit finite extension and obstruction examples; no physical twistor reconstruction",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-GO-003",
+      "verdict": "REFUTADO",
+      "hypotheses": [
+        "Separate MC solutions are claimed to guarantee simultaneous extension"
+      ],
+      "scope": "Universal assertion refuted by the blocked mixed coefficient w",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-UF-001",
+      "verdict": "CONFIRMADO CON CONDICIONES",
+      "hypotheses": [
+        "Classical master equation for S0",
+        "BRST-closed first-order deformation",
+        "Declared local functionals modulo total derivatives",
+        "Consistent ghost/parity grading"
+      ],
+      "scope": "Second-order local BV obstruction criterion; no all-order or quantum consistency theorem",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-UF-002",
+      "verdict": "CONFIRMADO",
+      "hypotheses": [
+        "Real five-dimensional vector space with Euclidean delta",
+        "Fully antisymmetric f012=f034=1",
+        "Declared Jacobi convention"
+      ],
+      "scope": "Metric-compatible skew bracket has J(e1,e2,e3)=-e4 and is not Lie",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-UF-003",
+      "verdict": "CONFIRMADO",
+      "hypotheses": [
+        "Real three-dimensional vector space",
+        "Fully antisymmetric f012=1"
+      ],
+      "scope": "Compact su(2) control satisfies Jacobi",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-UF-004",
+      "verdict": "REFUTADO",
+      "hypotheses": [
+        "Total antisymmetry is claimed sufficient for an ordinary Lie gauge extension"
+      ],
+      "scope": "Universal assertion refuted; no no-go for all higher or open gauge structures",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    },
+    {
+      "id": "UFT-X-001",
+      "verdict": "CONFIRMADO CON CONDICIONES",
+      "hypotheses": [
+        "Grassmann parity equals ghost number modulo two in the bosonic bank",
+        "L^n=F^(gh=n-1)",
+        "Local category and boundary hypotheses preserved",
+        "Differential s=(S0,.) and BV bracket satisfy stated identities"
+      ],
+      "scope": "Degree-shift correspondence of the abstract BV and DGLA obstruction descriptions; not an identification with the finite Googly toy or a physical equivalence",
+      "automatic_scientific_promotion": false,
+      "formal_verification": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "SCI-F01",
+      "classification": "HUECO",
+      "location": "UFT-X-001, unified_field_theory/proposal.md E and M",
+      "issue": "Ghost-number shift alone omitted Grassmann-parity hypothesis for an ordinary DGLA",
+      "resolution": "Added parity=ghost-number mod2 for bosonic bank; physical fermion extensions require an additional supergrading",
+      "status": "resolved_in_reviewed_artifacts"
+    },
+    {
+      "id": "SCI-F02",
+      "classification": "HUECO",
+      "location": "uft/cycles.py",
+      "issue": "Producer and checker were executed without comparing their artifacts",
+      "resolution": "Checker receives --producer; JSON passed, comparison passed and exact producer SHA required; unique IDs and no output reuse",
+      "status": "resolved_in_reviewed_artifacts"
+    },
+    {
+      "id": "SCI-F03",
+      "classification": "HUECO",
+      "location": "ResearchStore.add_link",
+      "issue": "Semantic revision or rejection of a propagating dependency did not invalidate its target and descendants",
+      "resolution": "Semantic changes and transitions to/from rejected invalidate downstream entities and evaluations; rejected link stays rejected",
+      "status": "resolved_in_reviewed_artifacts",
+      "reproduced_test": {
+        "rejected_link_status": "rejected",
+        "B": "review",
+        "C": "review"
+      }
+    },
+    {
+      "id": "SCI-F04",
+      "classification": "MENOR",
+      "location": "mathematical_review.md operator-unit discussion",
+      "issue": "Spanish wording could be misread as hbar having units energy/time",
+      "resolution": "Explicit energy multiplied by time",
+      "status": "resolved_in_reviewed_artifacts"
+    }
+  ],
+  "independent_sympy_reconstruction": {
+    "python": "3.14.4",
+    "sympy": "1.14.0",
+    "checks": {
+      "Gram": "Matrix([[1, 0], [0, 3]])",
+      "q": "Matrix([[0, -3*I/4], [I/4, 0]])",
+      "q2": "Matrix([[3/16, 0], [0, 3/16]])",
+      "gram_hermiticity": "Matrix([[0, 0], [0, 0]])",
+      "subspace_residual_zero": true,
+      "full_q_hermitian": true,
+      "q_eigenvalues": [
+        "-sqrt(3)/4",
+        "sqrt(3)/4"
+      ]
+    },
+    "scope": "Exact 16x16 Pauli-product reconstruction and restriction; no producer implementation imported",
+    "reproduction_code": "from sympy import Matrix, I, Rational, kronecker_product as kp, zeros, eye\nfrom itertools import permutations\nsx=Matrix([[0,1],[1,0]])/2\nsy=Matrix([[0,-I],[I,0]])/2\nsz=Matrix([[1,0],[0,-1]])/2\nsp=[sx,sy,sz]\ndef eps(p):\n    return (-1)**sum(p[i]>p[j] for i in range(3) for j in range(i+1,3))\nQ=zeros(16)\nfor p in permutations(range(3)):\n    Q+=eps(p)*kp(sp[p[0]],sp[p[1]],sp[p[2]],eye(2))\nu0=zeros(16,1);u1=zeros(16,1)\nfor bits,a,b in [('0101',Rational(1,2),Rational(-1,2)),('0110',Rational(-1,2),Rational(-1,2)),('1001',Rational(-1,2),Rational(-1,2)),('1010',Rational(1,2),Rational(-1,2)),('0011',0,1),('1100',0,1)]:\n    u0[int(bits,2)]=a;u1[int(bits,2)]=b\nB=Matrix.hstack(u0,u1);G=B.H*B;M=G.inv()*B.H*Q*B\nassert G==Matrix([[1,0],[0,3]])\nassert M==Matrix([[0,-3*I/4],[I/4,0]])\nassert M*M==eye(2)*Rational(3,16)\nassert M.H*G-G*M==zeros(2)\nassert Q*B==B*M\nassert Q.H==Q\nprint('Exact SymPy reconstruction passed')\n"
+  },
+  "tests_executed": [
+    {
+      "command": "python3 -m unittest discover -s tests -p test_science_examples.py -v",
+      "tests": 8,
+      "passed": true
+    },
+    {
+      "command": "python3 -m unittest discover -s tests -p test_independent_audit.py -v",
+      "tests": 10,
+      "passed": true
+    },
+    {
+      "command": "python3 -m unittest discover -s tests -p 'test_uft*.py' -v",
+      "tests": 39,
+      "passed": true,
+      "scope": "Store and integrated workflow contracts including link rejection invalidation and cycle comparison"
+    }
+  ],
+  "first_cycle_report_contract": {
+    "numbered_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "eleven_sections_in_order": true,
+    "seven_criteria": true,
+    "discriminating_tests": 5,
+    "observational_prediction_gap_declared": true
+  },
+  "checks": {
+    "statement": true,
+    "hypotheses": true,
+    "logic": true,
+    "dependencies": true,
+    "conventions": true,
+    "limits": true,
+    "physical_scope": true,
+    "tool_scope": true
+  },
+  "artifacts": {
+    "research/quantum_gravity/proposal.md": {
+      "sha256": "b36753b4f99b0de236f99cff1c5c13dd2ba9d0e73976f2227f3aa8701ceb4957",
+      "bytes": 13068
+    },
+    "research/googly_problem/proposal.md": {
+      "sha256": "17c17b54c3aed20f94ab0f9b3f7f431010e2a20307fdf87d52e51924e6f2cf66",
+      "bytes": 13116
+    },
+    "research/unified_field_theory/proposal.md": {
+      "sha256": "a2a1d1541dcead5d0716031a0389edbc193160c1a24b4f3fd51a46f563c990f0",
+      "bytes": 14584
+    },
+    "research/first_cycle.md": {
+      "sha256": "e943b863f8dd71b9eebaad65a54e2abb3f94b9036a183fd7f41daed7bbe81570",
+      "bytes": 13717
+    },
+    "research/items.json": {
+      "sha256": "e81ed702685238a087859baebb2c2745d4aeb00264cda75c9b40eb3e661eff4a",
+      "bytes": 20391
+    },
+    "research/calculations/first_cycle.json": {
+      "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+      "bytes": 6244
+    },
+    "research/audits/mathematical_review.md": {
+      "sha256": "4d76f3e3308f2ed26a4eec725afb448df9aea9d690a4d51b8b506402a2b05a65",
+      "bytes": 27469
+    },
+    "scripts/science_examples.py": {
+      "sha256": "68943d6a57e38599830dff56a45782aaf71a67e9abd9e2c65c941f9a13bfff51",
+      "bytes": 12097
+    },
+    "scripts/independent_science_audit.py": {
+      "sha256": "61da620fbef1e26b0b385809364cacb40b376ed91ae543ea0df17375f33967d7",
+      "bytes": 17510
+    },
+    "references/physics_sources.json": {
+      "sha256": "a39b6f692c1e1956bb8947206fb35b7acac80001f596a65881fa1761f5aefdc7",
+      "bytes": 8573
+    },
+    "uft/cycles.py": {
+      "sha256": "4d0cf1828465ebbd9ebba3496c51a7f7472374ebcc3434b09ab4dc3e34cdd082",
+      "bytes": 3556
+    },
+    "uft/store.py": {
+      "sha256": "e1dd717e058980c84406c078d5efd1dc91ee530d1ba65d1d23ab8e9903b53efb",
+      "bytes": 37324
+    },
+    "tests/test_uft_store.py": {
+      "sha256": "800e92b642d1fbc752e1edd9c1edde0df1f28b9870730fe41f3524516fae1535",
+      "bytes": 20534
+    },
+    "tests/test_uft_workflow.py": {
+      "sha256": "2232022dc60b5236050ae51d6da053a396a2d281dd56015346aa3683eafae29a",
+      "bytes": 9668
+    },
+    "evidence/cycle-001-final/cycle.json": {
+      "sha256": "9e9754507be7314f15095e445f3540c8492ef8e902748fd6260611a56a16963e",
+      "bytes": 2417
+    },
+    "evidence/cycle-001-final/producer.json": {
+      "sha256": "aa38f013d7f862e867dda79d7a0b2756571c8f814e710f1c5446215f8bc0f26c",
+      "bytes": 6244
+    },
+    "evidence/cycle-001-final/independent.json": {
+      "sha256": "284476c6cadd46a6e121ed00bf2c3e9277e116e19896c2a29c5376fbc124e4d0",
+      "bytes": 6974
+    },
+    "research/audits/scientific_review.md": {
+      "sha256": "923087fe485f28eca1e0c325ae0aa55e819c7875d65285a7846097873150cf5c",
+      "bytes": 14264
+    }
+  },
+  "scientific_promotions_performed": 0,
+  "formally_verified_claims": 0,
+  "physical_goals_completed": 0,
+  "registered_profile_competence_evaluated": 0,
+  "limitations": [
+    "No new complete theory of gravity, unification or Googly is established",
+    "No observational gravitational prediction was derived",
+    "Finite literature consultation is not an exhaustive novelty search",
+    "No theorem-prover execution or external review",
+    "Automation and publication are outside this scientific audit"
+  ],
+  "skills_applied": [
+    "metacognicion-operativa",
+    "investigador-elite",
+    "colaborador-matematica-pura",
+    "colaborador-cientifico",
+    "peer-review"
+  ],
+  "protocols": [
+    "A where physically applicable",
+    "B for mathematical arguments"
+  ],
+  "method_reference": {
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "authors": [
+      "Timothy Kassis",
+      "Vinayak Agarwal",
+      "Yuhuan He",
+      "Darshil Patel",
+      "Aubrey M. Brueckner"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.00065",
+    "metadata_verified": true,
+    "scope": "Review-method credit, not evidence for physics claims"
+  }
+}

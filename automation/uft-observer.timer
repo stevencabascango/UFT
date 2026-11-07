@@ -1,0 +1,12 @@
+[Unit]
+Description=Observe UFT shared scientific sources hourly
+
+[Timer]
+OnBootSec=5m
+OnUnitActiveSec=1h
+Persistent=true
+RandomizedDelaySec=30
+Unit=uft-observer.service
+
+[Install]
+WantedBy=timers.target

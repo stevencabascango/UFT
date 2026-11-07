@@ -1,0 +1,82 @@
+{
+  "registered_profiles": 5000,
+  "selected_first_cycle_profiles": [
+    "G5K-TWISTORS-0551",
+    "G5K-CATEGORIES-0343",
+    "G5K-LQG-0074",
+    "G5K-COMPUTATION-0306",
+    "G5K-TOPOLOGY-0245",
+    "G5K-COMPUTATION-0467",
+    "G5K-INTEGRATION-0448"
+  ],
+  "selection_plan": "institute/orchestration/uft-team.json",
+  "profile_native_executions_claimed_for_scientific_subagents": 0,
+  "profile_binding_note": "The seven selected profiles are a design team. The specialist subagents below performed the scientific roles in real separate executions, but were not launched through native catalogue-profile bindings; that stronger linkage is not claimed.",
+  "scientific_llm_executions": [
+    {
+      "id": "uft-physics-drafting-20261106",
+      "role": "physics_producer",
+      "status": "completed",
+      "artifact": "collaboration/codex/producer-execution.json",
+      "model_version": null
+    },
+    {
+      "id": "uft-math-audit",
+      "role": "independent_mathematical_review",
+      "status": "completed",
+      "artifact": "research/audits/mathematical_review.md",
+      "model_version": null
+    },
+    {
+      "id": "uft_final_review-20261106",
+      "role": "scientific_audit",
+      "status": "completed",
+      "artifact": "evidence/scientific-review.json",
+      "model_version": null
+    }
+  ],
+  "scientific_llm_executions_completed": 3,
+  "separate_scientific_review_executions": 2,
+  "claims_reviewed": 12,
+  "review_scope": "internal; shared-model systematic errors remain possible",
+  "native_claude_scientific_reports": 0,
+  "claude_probe": "evidence/claude-availability.json",
+  "deterministic_reference_benchmark": {
+    "agents_executed": 0,
+    "backend": "reference",
+    "blocked_tasks": [],
+    "budget": {
+      "concurrency": 2,
+      "max_calls": 14,
+      "max_input_bytes": 120000,
+      "max_output_bytes": 200000,
+      "max_seconds": 120,
+      "max_usd": null,
+      "retries": 1,
+      "task_seconds": 25
+    },
+    "calls_started": 7,
+    "completed_executions": 7,
+    "failed_tasks": {},
+    "limitations": [
+      "Reference workers are deterministic processes, not LLM researchers.",
+      "A completed review execution is not automatically a confirmed theorem.",
+      "Different executions may share the same algorithm/model and systematic errors."
+    ],
+    "llm_executions_unconfirmed": 0,
+    "max_concurrency_observed": 2,
+    "processes_executed": 7,
+    "registered_profiles": 5000,
+    "review_executions_completed": 1,
+    "reviewed_results": 1,
+    "scientific_capabilities_evaluated": 0,
+    "seconds_consumed": 1.3676169859973015,
+    "selected_profiles": 7,
+    "status": "completed",
+    "token_accounting": "Provider-reported usage in result artifacts; no invented token or USD guarantee"
+  },
+  "finite_science_cycle": "evidence/cycle-001-final/cycle.json",
+  "individual_profile_competence_evaluations": 0,
+  "complete_physical_theories_established": 0,
+  "count_scope": "Delivery demonstrations and scientific agent turns; unittest subprocesses and historical failed integration runs are not hidden inside these counts."
+}

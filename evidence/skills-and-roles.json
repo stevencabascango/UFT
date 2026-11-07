@@ -1,0 +1,56 @@
+{
+  "coordinator_skills": [
+    "metacognicion-operativa",
+    "investigador-elite",
+    "colaborador-matematica-pura",
+    "colaborador-cientifico",
+    "teoria-original",
+    "scientific-writing",
+    "peer-review",
+    "prompt-master",
+    "graphify"
+  ],
+  "scope_notes": {
+    "graphify": "Checked for existing graph; none in target, no graphify build performed. Typed scientific graph generated locally without LLM calls.",
+    "teoria-original": "A-O conditional proposals, no novelty certification",
+    "prompt-master": "Self-contained bounded delegation prompts, no hidden reasoning requests"
+  },
+  "subagent_skills": {
+    "physics": [
+      "metacognicion-operativa",
+      "investigador-elite",
+      "colaborador-cientifico",
+      "colaborador-matematica-pura",
+      "teoria-original",
+      "scientific-writing",
+      "sympy"
+    ],
+    "mathematical_audit": [
+      "metacognicion-operativa",
+      "colaborador-matematica-pura",
+      "investigador-elite",
+      "colaborador-cientifico",
+      "peer-review"
+    ],
+    "scientific_audit": [
+      "metacognicion-operativa",
+      "colaborador-matematica-pura",
+      "investigador-elite",
+      "colaborador-cientifico",
+      "peer-review"
+    ],
+    "engine_and_skill_work": [
+      "metacognicion-operativa",
+      "skill-creator",
+      "relevant scientific roles"
+    ],
+    "onedrive_index": [
+      "metacognicion-operativa"
+    ]
+  },
+  "scientific_protocols": [
+    "A",
+    "B"
+  ],
+  "external_peer_review": false
+}

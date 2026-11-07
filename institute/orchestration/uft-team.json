@@ -1,0 +1,56 @@
+{
+  "registered_profiles": 5000,
+  "selected_profiles": [
+    "G5K-TWISTORS-0551",
+    "G5K-CATEGORIES-0343",
+    "G5K-LQG-0074",
+    "G5K-COMPUTATION-0306",
+    "G5K-TOPOLOGY-0245",
+    "G5K-COMPUTATION-0467",
+    "G5K-INTEGRATION-0448"
+  ],
+  "assignments": [
+    {
+      "role": "conceptual",
+      "profile_id": "G5K-TWISTORS-0551",
+      "selection_score": 30
+    },
+    {
+      "role": "mathematics",
+      "profile_id": "G5K-CATEGORIES-0343",
+      "selection_score": 30
+    },
+    {
+      "role": "physics",
+      "profile_id": "G5K-LQG-0074",
+      "selection_score": 2,
+      "programme_requirement": "Explicit division coverage; no evaluated competence inferred"
+    },
+    {
+      "role": "computation",
+      "profile_id": "G5K-COMPUTATION-0306",
+      "selection_score": 30
+    },
+    {
+      "role": "counterexample",
+      "profile_id": "G5K-TOPOLOGY-0245",
+      "selection_score": 30
+    },
+    {
+      "role": "audit",
+      "profile_id": "G5K-COMPUTATION-0467",
+      "selection_score": 30
+    },
+    {
+      "role": "integration",
+      "profile_id": "G5K-INTEGRATION-0448",
+      "selection_score": 30
+    }
+  ],
+  "programmes": [
+    "quantum_gravity"
+  ],
+  "selection_method": "Deterministic role coverage plus explicit primary-programme division; design profiles only",
+  "primary_programme": "quantum_gravity",
+  "actual_llm_executions": 0
+}

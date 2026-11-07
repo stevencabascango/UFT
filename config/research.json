@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "programmes": ["googly", "unification", "quantum_gravity"],
+  "relation_policy": "independent_programmes_with_justified_bridges",
+  "time_programme": "quantum_gravity",
+  "default_team_size": 7,
+  "budget": {"concurrency": 2, "max_calls": 14, "max_seconds": 120, "task_seconds": 25, "retries": 1},
+  "watch": {"interval_seconds": 60, "max_cycles": 60, "max_seconds": 3600, "max_files": 64, "max_bytes_per_file": 2097152},
+  "automation": {"mode": "manual_and_bounded_file_events", "paid_models": false, "promote_scientific_claims": false, "write_canonical_brain": false},
+  "independence": "Separate executions may share model, training, prompts and systematic errors. Internal review is not external peer review."
+}

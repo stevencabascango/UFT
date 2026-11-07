@@ -1,0 +1,45 @@
+name: Afirmación científica, objeción o contraejemplo
+description: Registrar un enunciado revisable con hipótesis, evidencia e impacto.
+title: '[Ciencia] '
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Pregunta y alcance
+      description: Identifica el programa, el dominio y qué contaría como éxito o fallo.
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: Enunciado e hipótesis
+      description: Incluye IDs, definiciones, firma, unidades, regularidad y restricciones pertinentes.
+    validations:
+      required: true
+  - type: dropdown
+    id: state
+    attributes:
+      label: Estado propuesto
+      options:
+        - PROPUESTA
+        - CONJETURA
+        - EVIDENCIA SIMBÓLICA O NUMÉRICA
+        - DERIVACIÓN PENDIENTE DE AUDITORÍA
+        - REFUTADO con contraejemplo
+        - EN REVISIÓN por una objeción
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia y reproducción
+      description: Fuentes primarias verificadas, resultado usado, archivos y comandos con salida real.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Dependencias, objeciones y siguiente comprobación
+      description: Distingue mapa demostrado, hipótesis y analogía; conserva desacuerdos.
+    validations:
+      required: true

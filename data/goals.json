@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "captured_utc": "2026-11-06T23:41:16.936409+00:00",
+  "goals": [
+    {
+      "id": "GOAL-GOOGLY",
+      "programme": "googly",
+      "title": "Problema de Googly",
+      "statement": "Construcción y reconstrucción twistorial más allá de sectores autoduales, con ambas helicidades, realidad, gauge y dinámica de Einstein delimitadas.",
+      "achieved": false,
+      "theory_level": "research_programme",
+      "source": "brain/partes/meta_liston.json",
+      "source_sha256": "cdbcc5e2ec6fe5448b0b369279fc384d2646bddd04c885e3e4b08839c058b18f",
+      "milestones": [
+        {
+          "id": "G1",
+          "hito": "Fijar el haz de obstrucciones E_k y reproducir la tabla de Baston–Mason (1987): Bach como obstrucción en el 5.º entorno formal, 'conformemente Einstein' en el 6.º, con el tipo SL2×SL2 de cada componente. Resuelve el conflicto de órdenes entre TG1 y TG200.",
+          "exito": "Una definición explícita de E_k cuyo cálculo (script y texto de Baston–Mason leído) fije sin ambigüedad en qué orden k aparece la obstrucción de Bach, en cuál la de Kozameh–Newman–Tod y dónde está la pieza normal de o_7. Ojo: la revisión de TG1 registra que, con los haces naturales, el bloque (3,1)⊕(1,3) aparece en los órdenes 4 y 5, no en el 6; la respuesta no está fijada de antemano.",
+          "fracaso": "Las dos opciones de E_k dan tablas incompatibles con el texto, o el texto no se puede consultar: TG1 y TG200 quedan sin orden fijado y TG200 no puede avanzar.",
+          "alimentan": [
+            "TG1",
+            "TG200",
+            "E10",
+            "CE3",
+            "D59"
+          ]
+        },
+        {
+          "id": "G2",
+          "hito": "Base analítica de la acción de Sharma: existencia, unicidad y dependencia analítica de las curvas twistoriales para datos pequeños (X262). Elimina una hipótesis de la cadena googly.",
+          "exito": "Teorema (Protocolo B) con espacios de Banach/Sobolev explícitos y control del coste de derivadas del pullback.",
+          "fracaso": "Pérdida de derivadas no controlable: la cadena necesita Nash–Moser o se limita a datos analíticos, y se documenta.",
+          "alimentan": [
+            "X262",
+            "P61",
+            "F1"
+          ]
+        },
+        {
+          "id": "G3",
+          "hito": "Término cruzado de helicidades a segundo orden: (i) diccionario explícito del canal de helicidad mixta en la acción de Sharma (X259); (ii) contraste con la clase cup [f₊⊠f₋] en H²(PA_U,O(−6,−6)) (TG200(c)).",
+          "exito": "La componente (4,4) de o_7 es no nula y se expresa con DOS derivadas en los datos de Einstein linealizados (término cruzado local de Einstein en PA a ese orden), reproduciendo la clase gauge de X259 y la amplitud de 3 gravitones (++−).",
+          "fracaso": "La componente es nula, o no nula pero solo expresable con cuatro derivadas (∝ Ψ_ABCD Ψ̄_A′B′C′D′, gravedad conforme): no-go publicable, el término cruzado de Einstein no es local en PA a ese orden.",
+          "alimentan": [
+            "X259",
+            "TG200",
+            "TG1",
+            "T96",
+            "E12",
+            "CE2"
+          ]
+        },
+        {
+          "id": "G4",
+          "hito": "Selección de la escala de Einstein como anulación de una clase cohomológica (complejo relativo C^•(F/Z;O(2))) y deformación del álgebra de grado 0 con Λ=0 (borde de la órbita de so(5,C)).",
+          "exito": "Una clase cuya anulación separa Einstein de la gravedad conforme a orden lineal y cuadrático, compatible con H⁰=iso(4) (escala de LeBrun, N2).",
+          "fracaso": "El caso Λ=0 sigue degenerado (ninguna contracción del borde da iso(4) con un complejo bien definido): la pieza googly con Λ=0 debe venir de fuera del sector de grado 0.",
+          "alimentan": [
+            "TG36",
+            "TG2",
+            "X2",
+            "D54",
+            "D59"
+          ]
+        },
+        {
+          "id": "G5",
+          "hito": "Consolidar los no-go como resultado publicable: rigidez AASS/coincidencia (X3, X4), test H⁰ y no-go de tipo Ward con E escindido (TG39). Cierra vías con enunciados precisos.",
+          "exito": "Manuscrito con teoremas de alcance explícito (clase 𝒦₀/A_plano, definición de 'subcociente natural'), revisado por revisor-cientifico y Codex; erratas de AASS comunicadas a los autores.",
+          "fracaso": "Aparece un contraejemplo (p. ej. Kerr o Taub-NUT con N≠0 como imagen de vacío) que reabre la vía de coincidencia: se reclasifica X4 y se reabre H10.",
+          "alimentan": [
+            "X3",
+            "X4",
+            "TG39",
+            "D5",
+            "D6",
+            "H10",
+            "D54",
+            "F62",
+            "F64"
+          ]
+        }
+      ],
+      "reported_prior_state": {
+        "demostrado": [
+          "Literatura: gravitón no lineal de Penrose y Ward (CE3, E10, E11): el sector autodual es exactamente twistorial (local, complejo/euclídeo).",
+          "Literatura: acción twistorial de Mason–Skinner / Sharma (euclídea, Λ=0, clásica, vértice no SD no local en PT) (arXiv:0808.3907, 2104.07031). El googly no lineal sigue abierto (F1).",
+          "Propio, exacto asistido: rigidez quiral de AASS en 𝒦₀, |W⁺|²=|W⁻|², excluye Taub-NUT con N≠0; 'Einstein automático' refutado con contraejemplo con Bach≠0 (D5).",
+          "Propio, exacto (2 pistas): Kerr está en la imagen de la fórmula IV pero no en la de la construcción AASS con dato de Maxwell (D6; H10 asistido en A_plano).",
+          "Propio, derivado y verificado: test H⁰ — el L∞ twistorial con corchete de Poisson de peso 2 (Λ=0) tiene H⁰=sl₂⋉(C⁴⊕C³)≠iso(4) (D54); End E trivial da gl(r) (D56); ambitwistorial sin escala da so(6) (D59).",
+          "Propio, verificado: T1 palatial no informativo, H²(PA_U,L)=0 ⇒ solo la gravedad conforme de LeBrun (D12).",
+          "Propio, lineal: diccionario radiativo de dos helicidades sobre un twistor fijo (T96) y la dicotomía lineal en ℐ (X3a)."
+        ],
+        "condicional": [
+          "X3: no-go para construcciones por coincidencia de quiralidades si la dicotomía lineal se extiende al bulk no lineal (X3b sin demostrar).",
+          "TG200(c): el término cruzado ±2 vive en H²(PA_U,O(−6,−6)) como componente (4,4) de o_7; (a) verificado y (b) de Baston–Mason, (c) conjetura.",
+          "TG39: no-go para subcocientes de Ω^{0,•}(Z_U,End E) con E escindido (definición de 'subcociente natural' pendiente).",
+          "F62: 'resolución condicional' del googly del programa End E bajo una hipótesis global cuyo antecedente es cuestionable (derivación bajo hipótesis).",
+          "L9' (Moyal ħ⁴, bigrado (−3,−3)): conjetura sin desplazamiento metapléctico fijado."
+        ],
+        "refutado": [
+          "F64: Teorema 7.1 de P1_2_O2 (EFE con materia ⇔ datos twistoriales para M lorentziana genérica): el Lema A es falso.",
+          "Que Sharma 2021 o AASS 'resuelvan' el googly (F1; los propios artículos no lo afirman).",
+          "'Einstein automático' de AASS §4 (D5).",
+          "Ley de transferencia CBQ en sus formas naturales y la G extendida (C-metric, j≠0 con I₊=I₋), fase 4.",
+          "Involución en un solo PT (PDF8) y 'R20 como Higgs' (D92, D93)."
+        ]
+      },
+      "import_review": "Prior labels retained for traceability; exact artifacts and hypotheses must be checked before transfer.",
+      "independence": "Independent programme; unification with another goal is a hypothesis requiring an explicit dictionary."
+    },
+    {
+      "id": "GOAL-UFT",
+      "programme": "unification",
+      "title": "Unificación de campos",
+      "statement": "Construcción física que relacione gravedad, campos gauge y materia con dinámica, simetrías, parámetros, límites y observables explícitos.",
+      "achieved": false,
+      "theory_level": "research_programme",
+      "source": "brain/partes/meta_liston.json",
+      "source_sha256": "cdbcc5e2ec6fe5448b0b369279fc384d2646bddd04c885e3e4b08839c058b18f",
+      "milestones": [
+        {
+          "id": "U1",
+          "hito": "Test cúbico del problema R (horas, con K2_espectro_linealizado.py ampliado): en SO(5)⊃SO(3)×SO(2) (j=1) y SU(3) principal, vértice cúbico fijo de ∫B∧F más el 3-jet de V; amplitudes en capa ⟨h X_{j+1} X_{j−1}⟩ y ⟨γ X_{j+1} X̄_{j−1}⟩.",
+          "exito": "Las amplitudes mixtas se anulan, con |A_mixta|/|A_ref| < 10⁻¹² (normalización: cociente con la amplitud cúbica de referencia del mismo canal, fijada en el script antes de ejecutar), en todas las muestras de parámetros genéricos: P63 sobrevive a orden cúbico, D71 deja de ser no-go físico y K2 sube (L3 y L8 pasan a parcial).",
+          "fracaso": "Criterio prerregistrado (R*): amplitud mixta >10⁻⁸ relativa (misma normalización) en ≥90 % de las muestras ⇒ D71 es un no-go físico y K2 baja a resultado matemático. Entre 10⁻¹² y el criterio, o con menos del 90 %: NO CONCLUYENTE (refinar precisión y muestreo). La extensión a K1 (H84) no es automática: exige comprobar que su estructura cúbica es la misma.",
+          "alimentan": [
+            "R*",
+            "P63",
+            "X156",
+            "X257",
+            "TG201",
+            "TG27",
+            "D71"
+          ],
+          "estado_hito": "EJECUTADO (2026-10-30): NO PASA",
+          "resultado": "Criterio prerregistrado de R* cumplido en sentido negativo: la amplitud mixta relativa |A|/S supera 1e-8 en el 100 % de las muestras (SO(5)⊃SO(3)×SO(2), j=1: 83 muestras, mediana 8.1e-2; SU(3) principal, j=2: 40 muestras), también sin taquión. Margen de unos 7 órdenes sobre el suelo numérico; controles de Ward y de carga ≤ 4e-12; revisión independiente sin errores que afecten al resultado. Estatus: evidencia numérica para potenciales genéricos (genericidad por analiticidad, con la hipótesis de irreducibilidad). NO decide: la realidad no local o de tipo PT (X156), los potenciales no genéricos, de Sitter (P64) ni K1/H84. Siguiente paso: residuo del canal X₀ en A₄(h X₂ X̄₂ h) con el mismo código (criterio invariante X151/TG27). Código: codigo/U1_test_cubico_R.py y .out."
+        },
+        {
+          "id": "U2",
+          "hito": "Sector bosónico de K3: acción no quiral de Spin(11,3) (MacDowell–Mansouri o Plebański con φ_ijkl) y su espectro linealizado alrededor del vacío NP en los 6 campos de Lorentz y los 40 mixtos.",
+          "exito": "Sin taquiones ni fantasmas por debajo de M (prerregistrado en P69): K3 pasa L1/L3 a parcial sólido y es la primera candidata con espectro clásico sano y una familia determinada.",
+          "fracaso": "Cualquier fantasma con masa <M o cualquier taquión ⇒ K3 baja a modelo físico parcial (criterio ya fijado en su ficha).",
+          "alimentan": [
+            "P69",
+            "D96",
+            "E1",
+            "E3",
+            "X257"
+          ]
+        },
+        {
+          "id": "U3",
+          "hito": "Familias y anomalías de K3: clasificar las formas reales de so(14,C) con MW del 64 y factor compacto ⊃ su(3)⊕su(2)⊕u(1) (VM-K3-1), y calcular las anomalías (incluidas globales) de Spin(11,3) en la fase simétrica.",
+          "exito": "Una forma real o extensión que dé 3 familias sin espejos y sin anomalías (resultado constructivo).",
+          "fracaso": "Se demuestra que toda extensión introduce espejos o anomalías (no-go: resultado científico válido que cierra la vía y se registra en el Cerebro 3), o la clasificación queda inconcluyente; en ambos casos L5 no mejora para K3.",
+          "alimentan": [
+            "VM-K3-1",
+            "VM-K3-2",
+            "D90",
+            "D98",
+            "TG202"
+          ]
+        },
+        {
+          "id": "U4",
+          "hito": "K1: devolver poder predictivo con la condición de índice de Bittleston–Costello (β de un lazo como índice en PT) y el criterio K-teórico de TG202, sobre el conjunto de soluciones de la condición GS twistorial.",
+          "exito": "Un conjunto finito de (g, R_f, R_s) con una opción quiral que contenga G_SM, usando la condición de índice de Bittleston–Costello como condición de cancelación de anomalías del sector autodual, NO como β=0 (β=0 daría solo teorías conformes y excluiría el MS por construcción; ver P62 y la ficha de K1).",
+          "fracaso": "No hay conjunto finito con G_SM: K1 pasa a 'resultado matemático' (criterio de su ficha) y K4 o K2 ocupa su lugar en el trío.",
+          "alimentan": [
+            "P62",
+            "P60",
+            "TG202",
+            "X256",
+            "D69",
+            "M1",
+            "M3"
+          ]
+        },
+        {
+          "id": "U5",
+          "hito": "Banco de cuantización: espuma de BF para G'⊃SL(2,C)×G_int con simplicidad que rompa G' (Smolin), y asintótica del 4-símplice: ¿fija g_YM en función de G, γ y Λ?",
+          "exito": "g_YM sale como función de (G,γ,Λ) en la asintótica: primera relación de acoplamientos (L12) con definición cuántica (L9–L10 heredadas de espumas) y puente K2↔K4.",
+          "fracaso": "g_YM queda libre: K4 se archiva como modelo físico parcial y K2 se queda sin cuantización disponible.",
+          "alimentan": [
+            "P67",
+            "H91",
+            "TG301",
+            "TG8",
+            "E1"
+          ]
+        }
+      ],
+      "reported_prior_state": {},
+      "import_review": "Prior labels retained for traceability; exact artifacts and hypotheses must be checked before transfer.",
+      "independence": "Independent programme; unification with another goal is a hypothesis requiring an explicit dictionary."
+    },
+    {
+      "id": "GOAL-QG",
+      "programme": "quantum_gravity",
+      "title": "Gravedad cuántica, tiempo y LQG",
+      "statement": "Cuantizar la relatividad general: estados físicos, observables, restricciones, dinámica, tratamiento UV y límite semiclásico; estudiar tiempo relacional y LQG sin inferir discreción temporal del área.",
+      "achieved": false,
+      "theory_level": "research_programme",
+      "source": "brain/partes/meta_liston.json",
+      "source_sha256": "cdbcc5e2ec6fe5448b0b369279fc384d2646bddd04c885e3e4b08839c058b18f",
+      "milestones": [
+        {
+          "id": "GQ1",
+          "avance_real": true,
+          "hito": "Divergencias de burbuja de EPRL lorentziano como cohomología torcida (TG452). PRERREGISTRO (antes de calcular, en un commit fechado): (i) complejo único C_s^• := subcomplejo de C^•(κ; ad_ρ) con g = sl(2,C) (real, dim 6) cuyas 1-cocadenas cumplen la simplicidad lineal linealizada en el gauge temporal (forma y signo copiados de 0711.0146 antes del cálculo), con ρ el punto crítico geométrico no degenerado; (ii) un único exponente: la fórmula de grado de divergencia de Bonzom–Smerlak (copiada literalmente de 1004.5196/1008.1476) aplicada a C_s^• sin modificarla; (iii) sector: no degenerado. Blancos: Riello (1302.1781) da la contribución MÁS divergente del sector no degenerado de la auto-energía BAJO SUS APROXIMACIONES (logarítmica); Donà (1803.00835) da una COTA SUPERIOR más divergente. No coinciden y no se tratan como el mismo blanco.",
+          "exito": "El exponente prerregistrado para el melón es marginal con logaritmo (coincide con Riello en su sector y bajo sus aproximaciones) y no supera la cota de Donà para la auto-energía y la renormalización de vértice.",
+          "fracaso": "El exponente prerregistrado difiere del de Riello en al menos una potencia de j, o supera la cota de Donà: la simplicidad lineal no actúa como subcomplejo; TG452 se refuta (Cerebro 3). No se permite cambiar C_s^• ni la fórmula después de ver el resultado; una segunda elección sería un hito nuevo.",
+          "alimentan": [
+            "TG452",
+            "TG14",
+            "TG16",
+            "X60",
+            "X61",
+            "F14",
+            "K4"
+          ]
+        },
+        {
+          "id": "GQ2",
+          "avance_real": true,
+          "hito": "Problema de planitud (TG460). Precedente directo: Hellmann–Kamiński (1307.1679) ya identifican el origen (torcimiento de la amplitud de cara con γ) y proponen una corrección que PIERDE el espacio de frontera SU(2). El hito busca una corrección cohomológica que lo conserve: en la configuración de la jugada de Pachner 3-3 de HK, comprobar si las ligaduras accidentales son la condición de cociclo de γΘ mod 2π y, si lo son, sumar sobre levantamientos enteros.",
+          "exito": "Las dos condiciones a la vez: (1) con datos de frontera de Regge curvos de la configuración 3-3 con |γΘ_f mod 2π| ≥ 0,1 en alguna cara interna, la amplitud corregida no está suprimida respecto de datos planos con la misma escala: |A_curvo(λ)/A_plano(λ)| ≥ 10⁻² para λ = 10, 20, 50, 100 (factor de escala de los espines); (2) la amplitud corregida sigue definida sobre el espacio de frontera SU(2) de LQG (proyección EPRL intacta).",
+          "fracaso": "Las ligaduras no son una condición de cociclo; o el cociente cae por debajo de 10⁻² para algún λ ≤ 100; o la corrección pierde el espacio de frontera SU(2) (lo mismo que la propuesta de HK, sin avance): TG460 se refuta.",
+          "alimentan": [
+            "TG460",
+            "P5",
+            "TG8",
+            "TG14",
+            "K4",
+            "F14"
+          ]
+        },
+        {
+          "id": "GQ3",
+          "hito": "Dinámica como recursión (TG451). (a) Solo calibración, con precedentes: la asintótica del 6j cuántico y los tetraedros no euclídeos (Taylor–Woodward, math/0305113) y el espacio de fases deformado de la gravedad de lazos 3D con geometrías hiperbólicas (Bonzom–Dupuis–Girelli–Livine, 1402.2323). (b) Objeto real: el vértice EPRL-Λ de Han (2109.00034), con simplicidad. El 15j cuántico (BF+Λ) es q-holonómico trivialmente (certificados de Wilf–Zeilberger para sumas q-hipergeométricas propias) y BF+Λ es topológico: NO cuenta como éxito.",
+          "exito": "Una recursión NO trivial (no derivada solo de la estructura q-hipergeométrica de BF) en un espín de frontera del vértice EPRL-Λ, cuyo límite clásico (variedad característica) contiene la lagrangiana de 4-símplices de curvatura constante de HHKR (1412.7546) y no la de BF.",
+          "fracaso": "El vértice EPRL-Λ no admite una recursión de orden acotado que distinga EPRL de BF, o su variedad característica no contiene la componente geométrica: la dinámica de las espumas no se fija por esta vía.",
+          "alimentan": [
+            "TG451",
+            "TG454",
+            "TG461",
+            "Q64",
+            "K4",
+            "F14",
+            "E5",
+            "E6"
+          ]
+        },
+        {
+          "id": "GQ4",
+          "hito": "Robustez algebraica de la seguridad asintótica y del espacio de teorías de conexión pura (TG450, TG458). (a) Con las funciones β publicadas de las truncaciones f(R) (N = 1..8; regulador óptimo FIJO, sin parámetro continuo), ideal de puntos fijos en Singular, grado y raíces reales. Distancia normalizada al discriminante: κ_N = σ_min(J_N)/σ_max(J_N), donde J_N es el jacobiano del sistema de punto fijo en el NGFP, escrito en los acoplamientos adimensionales g̃_n = g_n k^{−d_n} (κ_N = 0 exactamente sobre el discriminante). Comparación de esquemas: solo entre los reguladores discretos publicados (tipos de endomorfismo), no con un parámetro α. (b) Conexión pura, UN lazo: contratérminos del orden más bajo publicado (hep-th/0611182, 1205.7045).",
+          "exito": "(a) NGFP raíz simple para todo N ≤ 8 y κ_N ≥ 0,5·κ_1; (b) todos los contratérminos a un lazo son funciones de F (sin derivadas de F) y su número coincide con la serie de Molien de P(1,2,3) en ese orden de jet.",
+          "fracaso": "(a) Colisión del NGFP con otra raíz (κ_N = 0) o κ_N < 0,5·κ_1 para algún N ≤ 8: la evidencia AS de esa familia no es robusta. (b) Aparece a un lazo cualquier contratérmino con derivadas de F (fuera de la familia de funciones de F), o el número no coincide con Molien. Dos lazos quedan fuera del hito.",
+          "alimentan": [
+            "TG450",
+            "TG458",
+            "TG407",
+            "TG406",
+            "K2",
+            "F65",
+            "R*",
+            "P63"
+          ]
+        },
+        {
+          "id": "GQ5",
+          "hito": "Dos comprobaciones acotadas de consistencia topológica (no especifican la suma sobre topologías): (a) auditoría independiente del lema de TG453 (cota CDT 4D ⇒ cota de 3-esferas, con t ≥ 3 losas y cortes etiquetados); (b) cálculo de la estructura Pin inducida por la soldadura de K3 y de Ω_5 de esa estructura (anomalía del 16 con CRT gaugeada, TG455).",
+          "exito": "(a) CONFIRMADO por el proceso B; (b) el grupo y la clase de anomalía del 16 quedan calculados (sea nula o no) con su estructura ξ justificada desde Pin(11,3).",
+          "fracaso": "(a) el lema falla; (b) la estructura ξ no queda fijada por el embebimiento (ambigüedad Pin+/Pin−), y el cálculo no puede hacerse sin una elección adicional.",
+          "alimentan": [
+            "TG453",
+            "TG455",
+            "TG457",
+            "TG416",
+            "TG205",
+            "K3",
+            "F21",
+            "F25",
+            "CL-I-106",
+            "P69"
+          ]
+        }
+      ],
+      "reported_prior_state": {
+        "demostrado": [
+          "Literatura (DEMOSTRADO en la literatura): la RG pura no es renormalizable perturbativamente; hay divergencia a dos lazos (Goroff–Sagnotti, Nucl. Phys. B266 (1986) 709, doi:10.1016/0550-3213(86)90193-8). A un lazo, en capa y sin materia, es finita ('t Hooft–Veltman, Ann. Inst. H. Poincaré A20 (1974) 69–94; verificado en metadatos por el revisor del 2026-11-06).",
+          "Literatura: la RG como teoría efectiva da correcciones cuánticas calculables a baja energía (Donoghue, arXiv:gr-qc/9405057).",
+          "Literatura (teorema): la cinemática de LQG es única bajo invariancia por difeomorfismos (LOST, arXiv:gr-qc/0504147); área y volumen tienen espectro discreto en la cinemática (Rovelli–Smolin, arXiv:gr-qc/9411005), sin ser observables de Dirac (F15).",
+          "Literatura (teorema): la asintótica del 4-símplice EPRL da la acción de Regge (Barrett et al., arXiv:0902.1170); con Λ, las amplitudes de Han son finitas y su vértice tiene asintótica ±S_Regge(Λ) (arXiv:2109.00034, arXiv:1412.7546).",
+          "Literatura (teorema): en BF, el grado de divergencia de las burbujas lo da la cohomología celular/torcida (Bonzom–Smerlak, arXiv:1004.5196, 1008.1476).",
+          "Literatura (teorema): en 3D, gravedad ↔ Chern–Simons localmente, con los límites de E5–E8 (no como biyección global: F17); espacio de fases de AdS3 = Teich×Teich (E7).",
+          "Literatura: la gravedad autodual cuántica tiene una anomalía twistorial que se cancela con un axión, y entonces se restaura la integrabilidad (Bittleston–Sharma–Skinner, arXiv:2208.12701).",
+          "Transferido de unificación (CL-I-106, CONFIRMADO CON CONDICIONES por el proceso B del ciclo 02; hipótesis: paridad par, orden cuadrático, Minkowski, y cuantización de Fock estándar): en la acción bosónica de K3 con k1>0 siempre hay un fantasma entre los modos mixtos 2+/1+. Quedan abiertas las cuantizaciones no estándar (Lee–Wick, fakeon). La relación con una «expectativa» de Nesti–Percacci (0909.4537, p. 7) es cita del auditor del ciclo 02, no verificada aquí (el resumen no la recoge). Para la gravedad cuántica: en esa clase y con Fock estándar, K3 no es una teoría UV unitaria; como mucho, una EFT. Alcance (arbitraje del working paper de unificación, 2026-11-06): solo en el span 𝓕 de 12 invariantes; en la clase ampliada 𝓕⁺+Q_P el sector 1⁻ tiene fantasma o taquión fuera de la hipersuperficie de ajuste fino Σ (esbozo, pendiente de proceso B) y sobre Σ queda abierto."
+        ],
+        "condicional": [
+          "Literatura (CONDICIONAL: teorema bajo hipótesis; solo resumen leído): «under natural assumptions» sobre la convergencia, las nociones fuertes de límite continuo de espumas llevan a una teoría topológica (Bruno–Colafranceschi–Mele–Rovelli, arXiv:2603.16999). La suma 'spinfoam stack' se localiza en conexiones planas SU(2) en el límite de corte de área infinito (Han, arXiv:2510.26926 v1; solo resumen). Delimitan el límite continuo (X60, X61) bajo esas hipótesis.",
+          "Literatura (CONDICIONAL por analogía): Witten (arXiv:gr-qc/0306083) muestra que la función de onda de Chern–Simons de Yang–Mills no es normalizable y viola CPT; la conclusión sobre el estado de Kodama de la gravedad es por analogía (F13).",
+          "Transferido de unificación (CL-I-109b, VERIFICADO COMPUTACIONALMENTE, SIN AUDITAR; sustituye a CL-I-109, VETADO por el proceso B): existe una región abierta de la acción bosónica de K3 con gravitón sano, sin taquiones y fantasmas solo con m ≳ 1.06 M. Solo condicional: K3 sería una EFT con corte ≈ M, no una cuantización de la RG.",
+          "Transferido de unificación: CL-I-101/102 (CONFIRMADOS CON CONDICIONES) y CL-I-103 (VERIFICADO COMPUTACIONALMENTE): para K2 genérico (árbol, orden cúbico, Minkowski, familia muestreada de potenciales), con CPT (Jost) o el dato de rango 1, no existe estructura real covariante de Poincaré. NO se deduce de aquí la ausencia de unitariedad perturbativa (paso no demostrado). Para potenciales genéricos depende de CL-I-104 (CONJETURA).",
+          "Seguridad asintótica: NGFP en truncaciones de Einstein–Hilbert y f(R) de orden alto (Reuter, arXiv:hep-th/9605030; Codello–Percacci–Rahmede, arXiv:0805.2909; Falls–Litim–Nikolakopoulos–Rahmede, arXiv:1301.4191, 1410.4815). Evidencia en truncaciones, no demostración (TG450).",
+          "CDT: evidencia numérica de un mundo 4D emergente (Ambjørn–Jurkiewicz–Loll, arXiv:hep-th/0404156); límite continuo no demostrado (F25); la existencia de la medida depende de una cota de conteo abierta (TG453).",
+          "Espumas: evidencia numérica de una transición de fase (Bahr–Steinhaus, arXiv:1605.07649); divergencias EPRL estimadas (Riello, arXiv:1302.1781; Donà, arXiv:1803.00835).",
+          "Entropía de LQG: S=A/4 tras fijar γ, o con γ=±i (Frodden–Geiller–Noui–Perez, arXiv:1212.4060); −(3/2) log A (Kaul–Majumdar, arXiv:gr-qc/0002040); la corrección log euclídea de Sen parece discrepar (arXiv:1205.0971) (TG456).",
+          "AdS/CFT como definición no perturbativa de la gravedad cuántica en AdS (F6, conjetura).",
+          "Gauge de CRT y suma sobre variedades no orientables en gravedad cuántica (Harlow–Numasawa, arXiv:2311.09978); conjetura de cobordismo (McNamara–Vafa, arXiv:1909.10355; F21).",
+          "Renormalizabilidad 'no métrica' de Plebański a un lazo (Krasnov, arXiv:hep-th/0611182): argumento a un lazo, no verificado aquí (TG458).",
+          "Problema de planitud de EPRL: ligaduras accidentales de curvatura (Hellmann–Kamiński, arXiv:1307.1679; Engle–Kamiński–Oliveira, arXiv:2012.14822); su alcance fuera de los datos estudiados es abierto (P5, TG460)."
+        ],
+        "refutado": [
+          "Renormalizabilidad perturbativa de la RG pura a todos los órdenes (Goroff–Sagnotti, doi:10.1016/0550-3213(86)90193-8).",
+          "El polinomio de Jones como solución de todas las ligaduras cuánticas (F12).",
+          "El estado de Kodama como estado físico normalizable (F13).",
+          "La discreción del área como predicción física (observable de Dirac) sin más (F15).",
+          "'Gravedad 2+1 = Chern–Simons' como equivalencia global (F17); 'Ponzano–Regge/Turaev–Viro son la gravedad cuántica 3D' y 'la cuantización de Teichmüller es la gravedad 2+1' como identificaciones (F26, F27).",
+          "La equivalencia clásica de las formulaciones de primer orden implica su equivalencia cuántica (F65).",
+          "MCT: lazos de propagadores = caras de la espuma (F35)."
+        ]
+      },
+      "import_review": "Prior labels retained for traceability; exact artifacts and hypotheses must be checked before transfer.",
+      "independence": "Independent programme; unification with another goal is a hypothesis requiring an explicit dictionary."
+    }
+  ],
+  "precedence": "Latest explicit user request and canonical META + conventions override dated summaries.",
+  "ambiguities": [
+    {
+      "source": "master/00_PROJECT_MANIFEST/objectives.md",
+      "finding": "Dated summary lists objectives I–III; current conventions also include quantizing GR (IV).",
+      "resolution": "Retain as antecedent. Use the three physical goals of current META; I–IV are not four different physical theories."
+    }
+  ],
+  "candidate_policy": "Three independent conditional programmes. Shared tools are permitted, no asserted common final theory."
+}
